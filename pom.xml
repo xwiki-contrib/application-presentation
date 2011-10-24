@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-presentation</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Presentation Application</name>
   <packaging>xar</packaging>
   <description>Transforms wiki pages into HTML5 presentations</description>
