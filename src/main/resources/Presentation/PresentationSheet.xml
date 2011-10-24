@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xwikidoc>
 <web>Presentation</web>
-<name>PresentationClassSheet</name>
+<name>PresentationSheet</name>
 <language></language>
 <defaultLanguage>en</defaultLanguage>
 <translation>0</translation>
@@ -23,12 +23,16 @@
 <syntaxId>xwiki/2.0</syntaxId>
 <hidden>false</hidden>
 <content>{{velocity}}
-{{html}}
-&lt;form&gt;
-&lt;input type="hidden" name="skin" value="Presentation.PresentationSkin"/&gt;
-&lt;input type="submit" value="Run this presentation" /&gt;
-&lt;/form&gt;
-{{/html}}
+#if ($doc.fullName.equals("Presentation.PresentationSheet"))
+  This sheet will be applied to documents containing a Presentation Class Object.
+#else
+  {{html}}
+    &lt;form&gt;
+    &lt;input type="hidden" name="skin" value="Presentation.PresentationSkin"/&gt;
+    &lt;input type="submit" value="Run this presentation" /&gt;
+    &lt;/form&gt;
+  {{/html}}
 
-$doc.content
+  {{include document="$doc.fullName"/}}
+#end
 {{/velocity}}</content></xwikidoc>
