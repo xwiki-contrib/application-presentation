@@ -11,8 +11,8 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1319289514000</creationDate>
-<date>1319474209000</date>
-<contentUpdateDate>1319474209000</contentUpdateDate>
+<date>1319475770000</date>
+<contentUpdateDate>1319475770000</contentUpdateDate>
 <version>1.1</version>
 <title>Presentation Skin</title>
 <template></template>
@@ -1827,6 +1827,14 @@ ey1fUTjUNVtNMijuboZz+8lVQz8jPJNFFewfjBu4HoKKKKAP/9k=
     #if ("$!theme" == "")
       #set ($theme = "template-default")
     #end
+    #set($author = $presentation.getProperty("author").value)
+    #if ("$!author" == "")
+      #set ($author = $doc.getDocument().getAuthorReference().getName())
+    #end
+    #set($date = $presentation.getProperty("date").value)
+    #if ("$!date" == "")
+      #set ($date = $doc.contentUpdateDate)
+    #end
 
     &lt;section class='slides $layout $theme'&gt;
       
@@ -1836,9 +1844,9 @@ ey1fUTjUNVtNMijuboZz+8lVQz8jPJNFFewfjBu4HoKKKKAP/9k=
       &lt;article&gt;
         &lt;h1&gt;$doc.displayTitle&lt;/h1&gt;
         &lt;p&gt;
-          $doc.getDocument().getAuthorReference().getName()
+          $author
           &lt;br&gt;
-           $doc.contentUpdateDate
+          $date
         &lt;/p&gt;
       &lt;/article&gt;
 
