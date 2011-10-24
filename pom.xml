@@ -25,9 +25,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.xwiki.platform</groupId>
-    <artifactId>xwiki-platform-core</artifactId>
-    <version>3.3-SNAPSHOT</version>
+    <groupId>org.xwiki.commons</groupId>
+    <artifactId>xwiki-commons-pom</artifactId>
+    <version>3.2</version>
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-presentation</artifactId>
@@ -35,9 +35,38 @@
   <name>Presentation Application</name>
   <packaging>xar</packaging>
   <description>Transforms wiki pages into HTML5 presentations</description>
+  <scm>
+    <connection>scm:git:git://github.com/xwiki-contrib/application-presentation.git</connection>
+    <developerConnection>scm:git:git@github.com:xwiki-contrib/application-presentation.git</developerConnection>
+    <url>https://github.com/xwiki-contrib/application-presentation</url>
+  </scm>
   <properties>
     <!-- Don't run CLIRR here since there's no Java code. -->
     <xwiki.clirr.skip>true</xwiki.clirr.skip>
   </properties>
+  <build>
+    <!-- Needed to add support for the XAR packaging -->
+    <extensions>
+      <extension>
+        <groupId>org.xwiki.commons</groupId>
+        <artifactId>xwiki-commons-tool-xar-handlers</artifactId>
+        <version>${commons.version}</version>
+      </extension>
+    </extensions>
+    <!-- TODO: Remove this when we move to xwiki-commons-pom:3.3 parent, since it's an error in version 3.2 -->
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <dependencies>
+          <dependency>
+            <groupId>org.xwiki.commons</groupId>
+            <artifactId>xwiki-commons-tool-enforcer-dependencies</artifactId>
+            <version>3.2</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
+  </build>
 </project>
 
