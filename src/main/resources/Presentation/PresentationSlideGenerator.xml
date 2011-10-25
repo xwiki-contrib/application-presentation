@@ -11,8 +11,8 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1319364032000</creationDate>
-<date>1319532464000</date>
-<contentUpdateDate>1319532464000</contentUpdateDate>
+<date>1319536503000</date>
+<contentUpdateDate>1319536503000</contentUpdateDate>
 <version>1.1</version>
 <title></title>
 <template></template>
@@ -27,12 +27,14 @@ import org.xwiki.rendering.block.match.*
 import org.xwiki.rendering.block.*
 import org.xwiki.rendering.transformation.*
 import org.xwiki.rendering.syntax.*
+import org.xwiki.rendering.listener.*
 import com.xpn.xwiki.web.*
 
 // Algorithm:
 // - find all Section Blocks at all levels
 // - For each Section Block remove nested Section blocks so that each slides maps only to one section
-def xdom = xwiki.getDocument(xcontext.get("presentationDocument")).getDocument().getXDOM()
+def presentationDocumentReference = xcontext.get("presentationDocument")
+def xdom = xwiki.getDocument(presentationDocumentReference).getDocument().getXDOM()
 def newxdom = xdom.clone();
 def txContext = new TransformationContext(newxdom, Syntax.XWIKI_2_0)
 Utils.getComponent(TransformationManager.class).performTransformations(newxdom, txContext)
@@ -44,8 +46,9 @@ newxdom.getBlocks(new ClassBlockMatcher(SectionBlock.class), Block.Axes.DESCENDA
   // Discard empty section block. This happens for example when a document starts at section 3, the rendering module will create 2 empty sections, one for each missing level.
   if (sectionBlock.getChildren().size() &gt; 0) {
     println "{{html clean='false'}}&lt;article&gt;"
-    // Render the content in XHTML
-    print "${services.rendering.render(sectionBlock, "xhtml/1.0")}"
+    // Render the content in XHTML, in the context of the presentation document (we wrap the content to render in a metadata block with a source reference)
+    def wrappedSectionBlock = new MetaDataBlock(Arrays.asList(sectionBlock), new MetaData(Collections.singletonMap(MetaData.SOURCE, presentationDocumentReference)))
+    print "${services.rendering.render(wrappedSectionBlock, "xhtml/1.0")}"
     println "&lt;/article&gt;{{/html}}"
     println ""
   }
