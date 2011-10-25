@@ -11,8 +11,8 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1319289514000</creationDate>
-<date>1319558348000</date>
-<contentUpdateDate>1319558348000</contentUpdateDate>
+<date>1319561792000</date>
+<contentUpdateDate>1319561792000</contentUpdateDate>
 <version>1.1</version>
 <title>Presentation Skin</title>
 <template></template>
@@ -1802,6 +1802,7 @@ ey1fUTjUNVtNMijuboZz+8lVQz8jPJNFFewfjBu4HoKKKKAP/9k=
 </property>
 <property>
 <style.css>@import url("$xwiki.getSkinFile('uicomponents/widgets/gallery/gallery.css', true)");
+@import url("$xwiki.getSkinFile('uicomponents/container/columns.css', true)");
 
 #template('colorThemeInit.vm')
 
