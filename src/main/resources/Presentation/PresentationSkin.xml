@@ -11,8 +11,8 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1319289514000</creationDate>
-<date>1319561792000</date>
-<contentUpdateDate>1319561792000</contentUpdateDate>
+<date>1319563278000</date>
+<contentUpdateDate>1319563278000</contentUpdateDate>
 <version>1.1</version>
 <title>Presentation Skin</title>
 <template></template>
@@ -1870,7 +1870,13 @@ ey1fUTjUNVtNMijuboZz+8lVQz8jPJNFFewfjBu4HoKKKKAP/9k=
 <viewheader.vm></viewheader.vm>
 </property>
 </object>
-<content>To use this presentation skin, follow these steps:
+<content>= Example =
+
+Check out this [[Presentation about XWiki as web development platform&gt;&gt;XWikiPresentation]] to see this skin in action.
+
+= Usage =
+
+To use this Presentation Skin, follow these steps:
 
 1. Create a document with some content such as for example:(((
 {{code language="none"}}
