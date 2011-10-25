@@ -11,8 +11,8 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1319289514000</creationDate>
-<date>1319475770000</date>
-<contentUpdateDate>1319475770000</contentUpdateDate>
+<date>1319533007000</date>
+<contentUpdateDate>1319533007000</contentUpdateDate>
 <version>1.1</version>
 <title>Presentation Skin</title>
 <template></template>
@@ -1827,44 +1827,16 @@ ey1fUTjUNVtNMijuboZz+8lVQz8jPJNFFewfjBu4HoKKKKAP/9k=
     #if ("$!theme" == "")
       #set ($theme = "template-default")
     #end
-    #set($author = $presentation.getProperty("author").value)
-    #if ("$!author" == "")
-      #set ($author = $doc.getDocument().getAuthorReference().getName())
-    #end
-    #set($date = $presentation.getProperty("date").value)
-    #if ("$!date" == "")
-      #set ($date = $doc.contentUpdateDate)
-    #end
 
     &lt;section class='slides $layout $theme'&gt;
       
       &lt;article class='biglogo'&gt;
       &lt;/article&gt;
 
-      &lt;article&gt;
-        &lt;h1&gt;$doc.displayTitle&lt;/h1&gt;
-        &lt;p&gt;
-          $author
-          &lt;br&gt;
-          $date
-        &lt;/p&gt;
-      &lt;/article&gt;
-
       ## Save document being presented in the context since we have no way to pass it with includeTopic
       $context.put("presentationDocument", $doc.getFullName())
       #includeTopic("Presentation.PresentationSlideGenerator")  
         
-      &lt;article&gt;
-        &lt;h3&gt;
-          Thank you!
-        &lt;/h3&gt;
-        
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;a href='http://www.xwiki.org'&gt;xwiki.org&lt;/a&gt;
-        &lt;/ul&gt;
-      &lt;/article&gt;
-
     &lt;/section&gt;
 
   &lt;/body&gt;
