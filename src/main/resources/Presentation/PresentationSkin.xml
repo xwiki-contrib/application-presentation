@@ -11,8 +11,8 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1319289514000</creationDate>
-<date>1319556984000</date>
-<contentUpdateDate>1319556984000</contentUpdateDate>
+<date>1319558348000</date>
+<contentUpdateDate>1319558348000</contentUpdateDate>
 <version>1.1</version>
 <title>Presentation Skin</title>
 <template></template>
@@ -1803,6 +1803,8 @@ ey1fUTjUNVtNMijuboZz+8lVQz8jPJNFFewfjBu4HoKKKKAP/9k=
 <property>
 <style.css>@import url("$xwiki.getSkinFile('uicomponents/widgets/gallery/gallery.css', true)");
 
+#template('colorThemeInit.vm')
+
 .wikimodel-emptyline {
   height: 1em;
 }
@@ -1814,7 +1816,8 @@ ey1fUTjUNVtNMijuboZz+8lVQz8jPJNFFewfjBu4HoKKKKAP/9k=
 .code, .box {
   background-color: $theme.backgroundSecondaryColor;
   border: 1px dotted $theme.borderColor;
-  font-size: 70%
+  font-size: 70%;
+  line-height: 120%
 }
 
 .code, .code pre, .code *  {
@@ -1869,7 +1872,18 @@ ey1fUTjUNVtNMijuboZz+8lVQz8jPJNFFewfjBu4HoKKKKAP/9k=
 <content>To use this presentation skin, follow these steps:
 
 1. Create a document with some content such as for example:(((
-{{code}}
+{{code language="none"}}
+= XWiki =
+
+A collaborative development platform runtime based on the wiki paradigm
+
+
+(% style="font-size: 70%;" %)
+(((
+Vincent Massol
+October 2011
+)))
+
 === Agenda ===
 
 * What is XWiki?
@@ -1900,9 +1914,7 @@ image:http://www.xwiki.org/xwiki/bin/download/ColorThemes/MainCT/logo.png
 
 === Slide 4 ===
 
-{{html}}
-&lt;pre&gt;
-{{groovy}}
+{{code language="java"}}
 ...
 // Find all sections and create one &lt;article&gt; per section
 def xdom =
@@ -1912,9 +1924,7 @@ xdom.getBlocks(new ClassBlockMatcher(
 {
 ...
 }
- {{/groovy}}
-&lt;/pre&gt;
-{{/html}}
+{{/code}}
 {{/code}}
 )))
 1. Attach an Object of type ##Presentation.PresentationClass##
