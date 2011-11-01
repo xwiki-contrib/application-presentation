@@ -27,7 +27,7 @@
   <parent>
     <groupId>org.xwiki.commons</groupId>
     <artifactId>xwiki-commons-pom</artifactId>
-    <version>3.2</version>
+    <version>3.3-milestone-1</version>
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-presentation</artifactId>
@@ -53,20 +53,6 @@
         <version>${commons.version}</version>
       </extension>
     </extensions>
-    <!-- TODO: Remove this when we move to xwiki-commons-pom:3.3 parent, since it's an error in version 3.2 -->
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-enforcer-plugin</artifactId>
-        <dependencies>
-          <dependency>
-            <groupId>org.xwiki.commons</groupId>
-            <artifactId>xwiki-commons-tool-enforcer-dependencies</artifactId>
-            <version>3.2</version>
-          </dependency>
-        </dependencies>
-      </plugin>
-    </plugins>
   </build>
 </project>
 
