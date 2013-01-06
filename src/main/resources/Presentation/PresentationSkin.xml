@@ -1742,10 +1742,7 @@ SUVORK5CYII=
       <name>HTML5 Presentation</name>
     </property>
     <property>
-      <style.css>@import url("$xwiki.getSkinFile('uicomponents/widgets/gallery/gallery.css', true)");
-@import url("$xwiki.getSkinFile('uicomponents/container/columns.css', true)");
-
-#template('colorThemeInit.vm')
+      <style.css>#template('colorThemeInit.vm')
 
 .wikimodel-emptyline {
   height: 1em;
@@ -1780,8 +1777,14 @@ SUVORK5CYII=
     &lt;script src='$xwiki.getSkinFile("js/prototype/prototype.js")'&gt;&lt;/script&gt;
     &lt;script src='$xwiki.getSkinFile("slides.js")'&gt;&lt;/script&gt;
     &lt;script src='$xwiki.getSkinFile("js/xwiki/xwiki.js")'&gt;&lt;/script&gt;
-    &lt;script src='$xwiki.getSkinFile("uicomponents/widgets/gallery/gallery.js", true)'&gt;&lt;/script&gt;
+    &lt;!-- com.xpn.xwiki.plugin.skinx.JsResourceSkinExtensionPlugin --&gt;
+    &lt;!-- com.xpn.xwiki.plugin.skinx.JsSkinFileExtensionPlugin --&gt;
+    &lt;!-- com.xpn.xwiki.plugin.skinx.JsSkinExtensionPlugin --&gt;
+    &lt;script type="text/javascript" src="$xwiki.getSkinFile("js/xwiki/markerScript.js", false)" defer="defer"&gt;&lt;/script&gt;
     &lt;link href='$xwiki.getSkinFile("style.css")' rel="stylesheet" type="text/css"/&gt;
+    &lt;!-- com.xpn.xwiki.plugin.skinx.CssResourceSkinExtensionPlugin --&gt;
+    &lt;!-- com.xpn.xwiki.plugin.skinx.CssSkinExtensionPlugin --&gt;
+    &lt;!-- com.xpn.xwiki.plugin.skinx.CssSkinFileExtensionPlugin --&gt;
   &lt;/head&gt;
 
   &lt;body style='display: none'&gt;
