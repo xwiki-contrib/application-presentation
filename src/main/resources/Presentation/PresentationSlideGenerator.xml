@@ -46,7 +46,10 @@ newxdom.getBlocks(new ClassBlockMatcher(SectionBlock.class), Block.Axes.DESCENDA
   }
   // Discard empty section block. This happens for example when a document starts at section 3, the rendering module will create 2 empty sections, one for each missing level.
   if (sectionBlock.getChildren().size() &gt; 0) {
-    println "{{html clean='false'}}&lt;article&gt;"
+    print '{{html clean="false"}}&lt;article'
+    def sectionClass = sectionBlock.headerBlock.getParameter('class')
+    if (sectionClass) print " class='${sectionClass}'"
+    println '&gt;'
     // Render the content in XHTML, in the context of the presentation document (we wrap the content to render in a metadata block with a source reference)
     def wrappedSectionBlock = new MetaDataBlock(Arrays.asList(sectionBlock), new MetaData(Collections.singletonMap(MetaData.SOURCE, presentationDocumentReference)))
     print "${services.rendering.render(wrappedSectionBlock, "xhtml/1.0")}"
