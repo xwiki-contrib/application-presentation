@@ -1757,6 +1757,10 @@ SUVORK5CYII=
   font-family: courier, "courier new", monospace;
   white-space: pre;
 }
+
+th {
+  background-color: #F3F3F3
+}
 </style.css>
     </property>
     <property>
