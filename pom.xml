@@ -27,7 +27,7 @@
   <parent>
     <groupId>org.xwiki.commons</groupId>
     <artifactId>xwiki-commons-pom</artifactId>
-    <version>3.3-rc-1</version>
+    <version>5.2</version>
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-presentation</artifactId>
@@ -53,6 +53,13 @@
         <version>${commons.version}</version>
       </extension>
     </extensions>
+    <plugins>
+      <plugin>
+        <groupId>org.xwiki.commons</groupId>
+        <artifactId>xwiki-commons-tool-xar-plugin</artifactId>
+        <version>${commons.version}</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
 
