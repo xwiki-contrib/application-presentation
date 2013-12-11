@@ -1,55 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
- * See the NOTICE file distributed with this work for additional
- * information regarding copyright ownership.
- *
- * This is free software; you can redistribute it and/or modify it
- * under the terms of the GNU Lesser General Public License as
- * published by the Free Software Foundation; either version 2.1 of
- * the License, or (at your option) any later version.
- *
- * This software is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this software; if not, write to the Free
- * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
--->
-
 <xwikidoc>
-  <web>Presentation</web>
-  <name>PresentationSkin</name>
-  <language/>
-  <defaultLanguage/>
-  <translation>0</translation>
-  <parent>Presentation.WebHome</parent>
-  <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1356994800000</creationDate>
-  <date>1356994800000</date>
-  <contentUpdateDate>1356994800000</contentUpdateDate>
-  <version>1.1</version>
-  <title>Presentation Skin</title>
-  <defaultTemplate/>
-  <validationScript/>
-  <comment/>
-  <minorEdit>false</minorEdit>
-  <syntaxId>xwiki/2.0</syntaxId>
-  <hidden>false</hidden>
-  <attachment>
-    <filename>logo.png</filename>
-    <filesize>1091</filesize>
-    <author>xwiki:XWiki.Admin</author>
-    <date>1357463041000</date>
-    <version>1.1</version>
-    <comment/>
-    <content>iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAECklEQVR4XtWaMWgTURjH36AQMdob
+<web>Presentation</web>
+<name>PresentationSkin</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>Presentation.WebHome</parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1356994800000</creationDate>
+<date>1356994800000</date>
+<contentUpdateDate>1356994800000</contentUpdateDate>
+<version>1.1</version>
+<title>Presentation Skin</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden><attachment>
+<filename>logo.png</filename>
+<filesize>1091</filesize>
+<author>xwiki:XWiki.Admin</author>
+<date>1357463041000</date>
+<version>1.1</version>
+<comment></comment><content>iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAECklEQVR4XtWaMWgTURjH36AQMdob
 FBwU0k4ODh06ZMhwQweHtrl7LwEHhwxOpZWisXQQLASt0sGhg4NDBoeCDqIpdOxQJIUODhkydAjY
 oYNChw4OBZ/vP5SGkr7/Xd7l2jz4CDfk3f2+7733/77vTgx6VOq5zNy3exPlz7ezYpgHQJ42xlrz
 G2N6fmO0Y669oYWZ/57LA+TEZhtjhQsBCILAKxbDahjKj2GolnAdF2aukfO7YXAdF6BcLmeDQM0V
@@ -69,16 +46,13 @@ wyHsHq4gBXiNiaIVJCNa+prQ5rdjrj2b01ifwJIl8PCjf+ySJJqI5AHSZez9zCOS9hz0Xs78pNlz
 Lnkzwu+GwbVrLwFAPEvgdQkXRQ6T7jtN/rZZ7RJRJDDuDXqkSs7fAQCEqDKFiZM2ke8AHL7QIOru
 AMP3Lk9E+UTwAEKKNUomcITh384gtUHDMOXGOj+aL7UR0WwT0RwuIEQoDZD/0b05QnZ/b5kAAAAA
 SUVORK5CYII=
-</content>
-  </attachment>
-  <attachment>
-    <filename>logobig.png</filename>
-    <filesize>3754</filesize>
-    <author>xwiki:XWiki.Admin</author>
-    <date>1357463160000</date>
-    <version>1.1</version>
-    <comment/>
-    <content>iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAABnlBMVEUAAAD/eAAAh8r/AABwtwBQ
+</content></attachment><attachment>
+<filename>logobig.png</filename>
+<filesize>3754</filesize>
+<author>xwiki:XWiki.Admin</author>
+<date>1357463160000</date>
+<version>1.1</version>
+<comment></comment><content>iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAABnlBMVEUAAAD/eAAAh8r/AABwtwBQ
 UFJAQEBPT1IAh8dQUFJQUFJgYGBQUFJVVVVQUFBRUVJQUFJQUFJVVVVQUFNQUFAAhsxNTU1PT1JS
 UlJPT1NOTlVPT1JRUVFPT1JQUFJRUVP/dwBRUVFQUFRQUFJQUFFQUFL/AABQUFNPT1JPT1JQUFJQ
 UFJRUVFSUlJQUFJQUFMAiMtOTlNQUFJQUFJQUFJPT1JRUVFQUFNQUFFQUFNQUFJQUFJQUFJRUVJR
@@ -144,16 +118,13 @@ BFaAJcmiqkTlXxXiCidL/sFxtqo25Zws2pTYiW8HaVNmy6bck0U75fSDt23iReS81luW0yDSgCwK
 Uw8eEz/i5xdRXH+eEelBFlHcf3lwd9D42c4dqjAIRmEY/kEYnGQx2RYUTAZvYCDYNrAYlkyCsIHF
 YB1e+LLpCz94EN7nBg58/T3hJPe6MbOmFgcdxhI+fZGaParsFhx4jOWPsRiLsaBzFOjQCXEJHXSc
 CZ39Ij4ox3bY6hcQ8QQD6r0K9OOeKwMAAAAAAH9jOCbZJ+wumQAAAABJRU5ErkJggg==
-</content>
-  </attachment>
-  <attachment>
-    <filename>prettify.js</filename>
-    <filesize>53996</filesize>
-    <author>xwiki:XWiki.Admin</author>
-    <date>1319372338000</date>
-    <version>1.1</version>
-    <comment/>
-    <content>Ly8gQ29weXJpZ2h0IChDKSAyMDA2IEdvb2dsZSBJbmMuCi8vCi8vIExpY2Vuc2VkIHVuZGVyIHRo
+</content></attachment><attachment>
+<filename>prettify.js</filename>
+<filesize>53996</filesize>
+<author>xwiki:XWiki.Admin</author>
+<date>1319372338000</date>
+<version>1.1</version>
+<comment></comment><content>Ly8gQ29weXJpZ2h0IChDKSAyMDA2IEdvb2dsZSBJbmMuCi8vCi8vIExpY2Vuc2VkIHVuZGVyIHRo
 ZSBBcGFjaGUgTGljZW5zZSwgVmVyc2lvbiAyLjAgKHRoZSAiTGljZW5zZSIpOwovLyB5b3UgbWF5
 IG5vdCB1c2UgdGhpcyBmaWxlIGV4Y2VwdCBpbiBjb21wbGlhbmNlIHdpdGggdGhlIExpY2Vuc2Uu
 Ci8vIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdAovLwovLyAgICAgIGh0
@@ -1101,16 +1072,13 @@ Tic6IFBSX1BMQUlOLAogICAgICAgICdQUl9QVU5DVFVBVElPTic6IFBSX1BVTkNUVUFUSU9OLAog
 ICAgICAgICdQUl9TT1VSQ0UnOiBQUl9TT1VSQ0UsCiAgICAgICAgJ1BSX1NUUklORyc6IFBSX1NU
 UklORywKICAgICAgICAnUFJfVEFHJzogUFJfVEFHLAogICAgICAgICdQUl9UWVBFJzogUFJfVFlQ
 RQogICAgICB9Owp9KSgpOwo=
-</content>
-  </attachment>
-  <attachment>
-    <filename>print.css</filename>
-    <filesize>1924</filesize>
-    <author>xwiki:XWiki.Admin</author>
-    <date>1386781018000</date>
-    <version>1.14</version>
-    <comment/>
-    <content>CmJvZHkgewogICBoZWlnaHQ6IDEwMCU7Cn0KCi5zbGlkZXMgPiBhcnRpY2xlIHsKICAgZGlzcGxh
+</content></attachment><attachment>
+<filename>print.css</filename>
+<filesize>1924</filesize>
+<author>xwiki:XWiki.Admin</author>
+<date>1386781018000</date>
+<version>1.14</version>
+<comment></comment><content>CmJvZHkgewogICBoZWlnaHQ6IDEwMCU7Cn0KCi5zbGlkZXMgPiBhcnRpY2xlIHsKICAgZGlzcGxh
 eTogYmxvY2s7CiAgIHBhZ2UtYnJlYWstYmVmb3JlOiBhbHdheXM7CiAgIG92ZXJmbG93OiBoaWRk
 ZW47CiAgIHdpZHRoOiAxMDAlOwogICBoZWlnaHQ6IDEwMCU7CiAgIG1hcmdpbi1sZWZ0OiAwcHg7
 CiAgIG1hcmdpbi10b3A6IDBweDsKICB2aXNpYmlsaXR5OiB2aXNpYmxlOwogIC13ZWJraXQtdHJh
@@ -1144,16 +1112,13 @@ LmZhci1uZXh0IHsKICAtd2Via2l0LXRyYW5zZm9ybTogbm9uZTsKICB0cmFuc2Zvcm06IG5vbmU7
 Cn0KCmFydGljbGU6bm90KC5ub2JhY2tncm91bmQpOm5vdCguZmlsbCk6bm90KC5iaWdsb2dvKTph
 ZnRlciB7CiAgYm90dG9tOiAyMHB4OwogIGNvbnRlbnQ6IGNvdW50ZXIocG5vKSAiLyIgYXR0cih0
 cG4pOwogIGxlZnQ6IDIwcHg7CiAgcG9zaXRpb246IGFic29sdXRlOwp9Cg==
-</content>
-  </attachment>
-  <attachment>
-    <filename>slides.js</filename>
-    <filesize>14970</filesize>
-    <author>xwiki:XWiki.Admin</author>
-    <date>1319551075000</date>
-    <version>1.1</version>
-    <comment/>
-    <content>LyoKICBHb29nbGUgSFRNTDUgc2xpZGVzIHRlbXBsYXRlCgogIEF1dGhvcnM6IEx1a2UgTWFow6kg
+</content></attachment><attachment>
+<filename>slides.js</filename>
+<filesize>14966</filesize>
+<author>xwiki:XWiki.Admin</author>
+<date>1386785749000</date>
+<version>1.2</version>
+<comment></comment><content>LyoKICBHb29nbGUgSFRNTDUgc2xpZGVzIHRlbXBsYXRlCgogIEF1dGhvcnM6IEx1a2UgTWFow6kg
 KGNvZGUpCiAgICAgICAgICAgTWFyY2luIFdpY2hhcnkgKGNvZGUgYW5kIGRlc2lnbikKCiAgICAg
 ICAgICAgRG9taW5pYyBNYXp6b25pIChicm93c2VyIGNvbXBhdGliaWxpdHkpCiAgICAgICAgICAg
 Q2hhcmxlcyBDaGVuIChDaHJvbWVWb3ggc3VwcG9ydCkKCiAgVVJMOiBodHRwOi8vY29kZS5nb29n
@@ -1247,185 +1212,182 @@ aHJvbWVWb3hBY3RpdmUoKSkgewogICAgc3BlYWtBbmRTeW5jVG9Ob2RlKHNsaWRlRWxzW2N1clNs
 aWRlXSk7CiAgfSAgCgogIHVwZGF0ZUhhc2goKTsKfTsKCmZ1bmN0aW9uIGJ1aWxkTmV4dEl0ZW0o
 KSB7CiAgdmFyIHRvQnVpbGQgID0gc2xpZGVFbHNbY3VyU2xpZGVdLnF1ZXJ5U2VsZWN0b3JBbGwo
 Jy50by1idWlsZCcpOwoKICBpZiAoIXRvQnVpbGQubGVuZ3RoKSB7CiAgICByZXR1cm4gZmFsc2U7
-CiAgfQoKICB0b0J1aWxkWzBdLmNsYXNzTGlzdC5yZW1vdmUoJ3RvLWJ1aWxkJywgJycpOwoKICBp
-ZiAoaXNDaHJvbWVWb3hBY3RpdmUoKSkgewogICAgc3BlYWtBbmRTeW5jVG9Ob2RlKHRvQnVpbGRb
-MF0pOwogIH0KCiAgcmV0dXJuIHRydWU7Cn07CgpmdW5jdGlvbiBwcmV2U2xpZGUoKSB7CiAgaWYg
-KGN1clNsaWRlID4gMCkgewogICAgY3VyU2xpZGUtLTsKCiAgICB1cGRhdGVTbGlkZXMoKTsKICB9
-Cn07CgpmdW5jdGlvbiBuZXh0U2xpZGUoKSB7CiAgaWYgKGJ1aWxkTmV4dEl0ZW0oKSkgewogICAg
-cmV0dXJuOwogIH0KCiAgaWYgKGN1clNsaWRlIDwgc2xpZGVFbHMubGVuZ3RoIC0gMSkgewogICAg
-Y3VyU2xpZGUrKzsKCiAgICB1cGRhdGVTbGlkZXMoKTsKICB9Cn07CgovKiBTbGlkZSBldmVudHMg
-Ki8KCmZ1bmN0aW9uIHRyaWdnZXJFbnRlckV2ZW50KG5vKSB7CiAgdmFyIGVsID0gZ2V0U2xpZGVF
-bChubyk7CiAgaWYgKCFlbCkgewogICAgcmV0dXJuOwogIH0KCiAgdmFyIG9uRW50ZXIgPSBlbC5n
-ZXRBdHRyaWJ1dGUoJ29uc2xpZGVlbnRlcicpOwogIGlmIChvbkVudGVyKSB7CiAgICBuZXcgRnVu
-Y3Rpb24ob25FbnRlcikuY2FsbChlbCk7CiAgfQoKICB2YXIgZXZ0ID0gZG9jdW1lbnQuY3JlYXRl
-RXZlbnQoJ0V2ZW50Jyk7CiAgZXZ0LmluaXRFdmVudCgnc2xpZGVlbnRlcicsIHRydWUsIHRydWUp
-OwogIGV2dC5zbGlkZU51bWJlciA9IG5vICsgMTsgLy8gTWFrZSBpdCByZWFkYWJsZQoKICBlbC5k
-aXNwYXRjaEV2ZW50KGV2dCk7Cn07CgpmdW5jdGlvbiB0cmlnZ2VyTGVhdmVFdmVudChubykgewog
-IHZhciBlbCA9IGdldFNsaWRlRWwobm8pOwogIGlmICghZWwpIHsKICAgIHJldHVybjsKICB9Cgog
-IHZhciBvbkxlYXZlID0gZWwuZ2V0QXR0cmlidXRlKCdvbnNsaWRlbGVhdmUnKTsKICBpZiAob25M
-ZWF2ZSkgewogICAgbmV3IEZ1bmN0aW9uKG9uTGVhdmUpLmNhbGwoZWwpOwogIH0KCiAgdmFyIGV2
-dCA9IGRvY3VtZW50LmNyZWF0ZUV2ZW50KCdFdmVudCcpOwogIGV2dC5pbml0RXZlbnQoJ3NsaWRl
-bGVhdmUnLCB0cnVlLCB0cnVlKTsKICBldnQuc2xpZGVOdW1iZXIgPSBubyArIDE7IC8vIE1ha2Ug
-aXQgcmVhZGFibGUKICAKICBlbC5kaXNwYXRjaEV2ZW50KGV2dCk7Cn07CgovKiBUb3VjaCBldmVu
-dHMgKi8KCmZ1bmN0aW9uIGhhbmRsZVRvdWNoU3RhcnQoZXZlbnQpIHsKICBpZiAoZXZlbnQudG91
-Y2hlcy5sZW5ndGggPT0gMSkgewogICAgdG91Y2hEWCA9IDA7CiAgICB0b3VjaERZID0gMDsKCiAg
-ICB0b3VjaFN0YXJ0WCA9IGV2ZW50LnRvdWNoZXNbMF0ucGFnZVg7CiAgICB0b3VjaFN0YXJ0WSA9
-IGV2ZW50LnRvdWNoZXNbMF0ucGFnZVk7CgogICAgZG9jdW1lbnQuYm9keS5hZGRFdmVudExpc3Rl
-bmVyKCd0b3VjaG1vdmUnLCBoYW5kbGVUb3VjaE1vdmUsIHRydWUpOwogICAgZG9jdW1lbnQuYm9k
-eS5hZGRFdmVudExpc3RlbmVyKCd0b3VjaGVuZCcsIGhhbmRsZVRvdWNoRW5kLCB0cnVlKTsKICB9
-Cn07CgpmdW5jdGlvbiBoYW5kbGVUb3VjaE1vdmUoZXZlbnQpIHsKICBpZiAoZXZlbnQudG91Y2hl
-cy5sZW5ndGggPiAxKSB7CiAgICBjYW5jZWxUb3VjaCgpOwogIH0gZWxzZSB7CiAgICB0b3VjaERY
-ID0gZXZlbnQudG91Y2hlc1swXS5wYWdlWCAtIHRvdWNoU3RhcnRYOwogICAgdG91Y2hEWSA9IGV2
-ZW50LnRvdWNoZXNbMF0ucGFnZVkgLSB0b3VjaFN0YXJ0WTsKICB9Cn07CgpmdW5jdGlvbiBoYW5k
-bGVUb3VjaEVuZChldmVudCkgewogIHZhciBkeCA9IE1hdGguYWJzKHRvdWNoRFgpOwogIHZhciBk
-eSA9IE1hdGguYWJzKHRvdWNoRFkpOwoKICBpZiAoKGR4ID4gUE1fVE9VQ0hfU0VOU0lUSVZJVFkp
-ICYmIChkeSA8IChkeCAqIDIgLyAzKSkpIHsKICAgIGlmICh0b3VjaERYID4gMCkgewogICAgICBw
-cmV2U2xpZGUoKTsKICAgIH0gZWxzZSB7CiAgICAgIG5leHRTbGlkZSgpOwogICAgfQogIH0KICAK
-ICBjYW5jZWxUb3VjaCgpOwp9OwoKZnVuY3Rpb24gY2FuY2VsVG91Y2goKSB7CiAgZG9jdW1lbnQu
-Ym9keS5yZW1vdmVFdmVudExpc3RlbmVyKCd0b3VjaG1vdmUnLCBoYW5kbGVUb3VjaE1vdmUsIHRy
-dWUpOwogIGRvY3VtZW50LmJvZHkucmVtb3ZlRXZlbnRMaXN0ZW5lcigndG91Y2hlbmQnLCBoYW5k
-bGVUb3VjaEVuZCwgdHJ1ZSk7ICAKfTsKCi8qIFByZWxvYWRpbmcgZnJhbWVzICovCgpmdW5jdGlv
-biBkaXNhYmxlU2xpZGVGcmFtZXMobm8pIHsKICB2YXIgZWwgPSBnZXRTbGlkZUVsKG5vKTsKICBp
-ZiAoIWVsKSB7CiAgICByZXR1cm47CiAgfQoKICB2YXIgZnJhbWVzID0gZWwuZ2V0RWxlbWVudHNC
-eVRhZ05hbWUoJ2lmcmFtZScpOwogIGZvciAodmFyIGkgPSAwLCBmcmFtZTsgZnJhbWUgPSBmcmFt
-ZXNbaV07IGkrKykgewogICAgZGlzYWJsZUZyYW1lKGZyYW1lKTsKICB9Cn07CgpmdW5jdGlvbiBl
-bmFibGVTbGlkZUZyYW1lcyhubykgewogIHZhciBlbCA9IGdldFNsaWRlRWwobm8pOwogIGlmICgh
+CiAgfQoKICB0b0J1aWxkWzBdLmNsYXNzTGlzdC5yZW1vdmUoJ3RvLWJ1aWxkJyk7CgogIGlmIChp
+c0Nocm9tZVZveEFjdGl2ZSgpKSB7CiAgICBzcGVha0FuZFN5bmNUb05vZGUodG9CdWlsZFswXSk7
+CiAgfQoKICByZXR1cm4gdHJ1ZTsKfTsKCmZ1bmN0aW9uIHByZXZTbGlkZSgpIHsKICBpZiAoY3Vy
+U2xpZGUgPiAwKSB7CiAgICBjdXJTbGlkZS0tOwoKICAgIHVwZGF0ZVNsaWRlcygpOwogIH0KfTsK
+CmZ1bmN0aW9uIG5leHRTbGlkZSgpIHsKICBpZiAoYnVpbGROZXh0SXRlbSgpKSB7CiAgICByZXR1
+cm47CiAgfQoKICBpZiAoY3VyU2xpZGUgPCBzbGlkZUVscy5sZW5ndGggLSAxKSB7CiAgICBjdXJT
+bGlkZSsrOwoKICAgIHVwZGF0ZVNsaWRlcygpOwogIH0KfTsKCi8qIFNsaWRlIGV2ZW50cyAqLwoK
+ZnVuY3Rpb24gdHJpZ2dlckVudGVyRXZlbnQobm8pIHsKICB2YXIgZWwgPSBnZXRTbGlkZUVsKG5v
+KTsKICBpZiAoIWVsKSB7CiAgICByZXR1cm47CiAgfQoKICB2YXIgb25FbnRlciA9IGVsLmdldEF0
+dHJpYnV0ZSgnb25zbGlkZWVudGVyJyk7CiAgaWYgKG9uRW50ZXIpIHsKICAgIG5ldyBGdW5jdGlv
+bihvbkVudGVyKS5jYWxsKGVsKTsKICB9CgogIHZhciBldnQgPSBkb2N1bWVudC5jcmVhdGVFdmVu
+dCgnRXZlbnQnKTsKICBldnQuaW5pdEV2ZW50KCdzbGlkZWVudGVyJywgdHJ1ZSwgdHJ1ZSk7CiAg
+ZXZ0LnNsaWRlTnVtYmVyID0gbm8gKyAxOyAvLyBNYWtlIGl0IHJlYWRhYmxlCgogIGVsLmRpc3Bh
+dGNoRXZlbnQoZXZ0KTsKfTsKCmZ1bmN0aW9uIHRyaWdnZXJMZWF2ZUV2ZW50KG5vKSB7CiAgdmFy
+IGVsID0gZ2V0U2xpZGVFbChubyk7CiAgaWYgKCFlbCkgewogICAgcmV0dXJuOwogIH0KCiAgdmFy
+IG9uTGVhdmUgPSBlbC5nZXRBdHRyaWJ1dGUoJ29uc2xpZGVsZWF2ZScpOwogIGlmIChvbkxlYXZl
+KSB7CiAgICBuZXcgRnVuY3Rpb24ob25MZWF2ZSkuY2FsbChlbCk7CiAgfQoKICB2YXIgZXZ0ID0g
+ZG9jdW1lbnQuY3JlYXRlRXZlbnQoJ0V2ZW50Jyk7CiAgZXZ0LmluaXRFdmVudCgnc2xpZGVsZWF2
+ZScsIHRydWUsIHRydWUpOwogIGV2dC5zbGlkZU51bWJlciA9IG5vICsgMTsgLy8gTWFrZSBpdCBy
+ZWFkYWJsZQogIAogIGVsLmRpc3BhdGNoRXZlbnQoZXZ0KTsKfTsKCi8qIFRvdWNoIGV2ZW50cyAq
+LwoKZnVuY3Rpb24gaGFuZGxlVG91Y2hTdGFydChldmVudCkgewogIGlmIChldmVudC50b3VjaGVz
+Lmxlbmd0aCA9PSAxKSB7CiAgICB0b3VjaERYID0gMDsKICAgIHRvdWNoRFkgPSAwOwoKICAgIHRv
+dWNoU3RhcnRYID0gZXZlbnQudG91Y2hlc1swXS5wYWdlWDsKICAgIHRvdWNoU3RhcnRZID0gZXZl
+bnQudG91Y2hlc1swXS5wYWdlWTsKCiAgICBkb2N1bWVudC5ib2R5LmFkZEV2ZW50TGlzdGVuZXIo
+J3RvdWNobW92ZScsIGhhbmRsZVRvdWNoTW92ZSwgdHJ1ZSk7CiAgICBkb2N1bWVudC5ib2R5LmFk
+ZEV2ZW50TGlzdGVuZXIoJ3RvdWNoZW5kJywgaGFuZGxlVG91Y2hFbmQsIHRydWUpOwogIH0KfTsK
+CmZ1bmN0aW9uIGhhbmRsZVRvdWNoTW92ZShldmVudCkgewogIGlmIChldmVudC50b3VjaGVzLmxl
+bmd0aCA+IDEpIHsKICAgIGNhbmNlbFRvdWNoKCk7CiAgfSBlbHNlIHsKICAgIHRvdWNoRFggPSBl
+dmVudC50b3VjaGVzWzBdLnBhZ2VYIC0gdG91Y2hTdGFydFg7CiAgICB0b3VjaERZID0gZXZlbnQu
+dG91Y2hlc1swXS5wYWdlWSAtIHRvdWNoU3RhcnRZOwogIH0KfTsKCmZ1bmN0aW9uIGhhbmRsZVRv
+dWNoRW5kKGV2ZW50KSB7CiAgdmFyIGR4ID0gTWF0aC5hYnModG91Y2hEWCk7CiAgdmFyIGR5ID0g
+TWF0aC5hYnModG91Y2hEWSk7CgogIGlmICgoZHggPiBQTV9UT1VDSF9TRU5TSVRJVklUWSkgJiYg
+KGR5IDwgKGR4ICogMiAvIDMpKSkgewogICAgaWYgKHRvdWNoRFggPiAwKSB7CiAgICAgIHByZXZT
+bGlkZSgpOwogICAgfSBlbHNlIHsKICAgICAgbmV4dFNsaWRlKCk7CiAgICB9CiAgfQogIAogIGNh
+bmNlbFRvdWNoKCk7Cn07CgpmdW5jdGlvbiBjYW5jZWxUb3VjaCgpIHsKICBkb2N1bWVudC5ib2R5
+LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3RvdWNobW92ZScsIGhhbmRsZVRvdWNoTW92ZSwgdHJ1ZSk7
+CiAgZG9jdW1lbnQuYm9keS5yZW1vdmVFdmVudExpc3RlbmVyKCd0b3VjaGVuZCcsIGhhbmRsZVRv
+dWNoRW5kLCB0cnVlKTsgIAp9OwoKLyogUHJlbG9hZGluZyBmcmFtZXMgKi8KCmZ1bmN0aW9uIGRp
+c2FibGVTbGlkZUZyYW1lcyhubykgewogIHZhciBlbCA9IGdldFNsaWRlRWwobm8pOwogIGlmICgh
 ZWwpIHsKICAgIHJldHVybjsKICB9CgogIHZhciBmcmFtZXMgPSBlbC5nZXRFbGVtZW50c0J5VGFn
 TmFtZSgnaWZyYW1lJyk7CiAgZm9yICh2YXIgaSA9IDAsIGZyYW1lOyBmcmFtZSA9IGZyYW1lc1tp
-XTsgaSsrKSB7CiAgICBlbmFibGVGcmFtZShmcmFtZSk7CiAgfQp9OwoKZnVuY3Rpb24gZGlzYWJs
-ZUZyYW1lKGZyYW1lKSB7CiAgZnJhbWUuc3JjID0gJ2Fib3V0OmJsYW5rJzsKfTsKCmZ1bmN0aW9u
-IGVuYWJsZUZyYW1lKGZyYW1lKSB7CiAgdmFyIHNyYyA9IGZyYW1lLl9zcmM7CgogIGlmIChmcmFt
-ZS5zcmMgIT0gc3JjICYmIHNyYyAhPSAnYWJvdXQ6YmxhbmsnKSB7CiAgICBmcmFtZS5zcmMgPSBz
-cmM7CiAgfQp9OwoKZnVuY3Rpb24gc2V0dXBGcmFtZXMoKSB7CiAgdmFyIGZyYW1lcyA9IGRvY3Vt
-ZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ2lmcmFtZScpOwogIGZvciAodmFyIGkgPSAwLCBmcmFtZTsg
-ZnJhbWUgPSBmcmFtZXNbaV07IGkrKykgewogICAgZnJhbWUuX3NyYyA9IGZyYW1lLnNyYzsKICAg
-IGRpc2FibGVGcmFtZShmcmFtZSk7CiAgfQogIAogIGVuYWJsZVNsaWRlRnJhbWVzKGN1clNsaWRl
-KTsKICBlbmFibGVTbGlkZUZyYW1lcyhjdXJTbGlkZSArIDEpOwogIGVuYWJsZVNsaWRlRnJhbWVz
-KGN1clNsaWRlICsgMik7ICAKfTsKCmZ1bmN0aW9uIHNldHVwSW50ZXJhY3Rpb24oKSB7CiAgLyog
-Q2xpY2tpbmcgYW5kIHRhcHBpbmcgKi8KICAKICB2YXIgZWwgPSBkb2N1bWVudC5jcmVhdGVFbGVt
-ZW50KCdkaXYnKTsKICBlbC5jbGFzc05hbWUgPSAnc2xpZGUtYXJlYSc7CiAgZWwuaWQgPSAncHJl
-di1zbGlkZS1hcmVhJzsgIAogIGVsLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgcHJldlNsaWRl
-LCBmYWxzZSk7CiAgZG9jdW1lbnQucXVlcnlTZWxlY3Rvcignc2VjdGlvbi5zbGlkZXMnKS5hcHBl
-bmRDaGlsZChlbCk7CgogIHZhciBlbCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpOwog
-IGVsLmNsYXNzTmFtZSA9ICdzbGlkZS1hcmVhJzsKICBlbC5pZCA9ICduZXh0LXNsaWRlLWFyZWEn
-OyAgCiAgZWwuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCBuZXh0U2xpZGUsIGZhbHNlKTsKICBk
-b2N1bWVudC5xdWVyeVNlbGVjdG9yKCdzZWN0aW9uLnNsaWRlcycpLmFwcGVuZENoaWxkKGVsKTsg
-IAogIAogIC8qIFN3aXBpbmcgKi8KICAKICBkb2N1bWVudC5ib2R5LmFkZEV2ZW50TGlzdGVuZXIo
-J3RvdWNoc3RhcnQnLCBoYW5kbGVUb3VjaFN0YXJ0LCBmYWxzZSk7Cn0KCi8qIENocm9tZVZveCBz
-dXBwb3J0ICovCgpmdW5jdGlvbiBpc0Nocm9tZVZveEFjdGl2ZSgpIHsKICBpZiAodHlwZW9mKGN2
-b3gpID09ICd1bmRlZmluZWQnKSB7CiAgICByZXR1cm4gZmFsc2U7CiAgfSBlbHNlIHsKICAgIHJl
-dHVybiB0cnVlOwogIH0KfTsKCmZ1bmN0aW9uIHNwZWFrQW5kU3luY1RvTm9kZShub2RlKSB7CiAg
-aWYgKCFpc0Nocm9tZVZveEFjdGl2ZSgpKSB7CiAgICByZXR1cm47CiAgfQogIAogIGN2b3guQ2hy
-b21lVm94Lm5hdmlnYXRpb25NYW5hZ2VyLnN3aXRjaFRvU3RyYXRlZ3koCiAgICAgIGN2b3guQ2hy
-b21lVm94TmF2aWdhdGlvbk1hbmFnZXIuU1RSQVRFR0lFUy5MSU5FQVJET00sIDAsIHRydWUpOyAg
-CiAgY3ZveC5DaHJvbWVWb3gubmF2aWdhdGlvbk1hbmFnZXIuc3luY1RvTm9kZShub2RlKTsKICBj
-dm94LkNocm9tZVZveFVzZXJDb21tYW5kcy5maW5pc2hOYXZDb21tYW5kKCcnKTsKICB2YXIgdGFy
-Z2V0ID0gbm9kZTsKICB3aGlsZSAodGFyZ2V0LmZpcnN0Q2hpbGQpIHsKICAgIHRhcmdldCA9IHRh
-cmdldC5maXJzdENoaWxkOwogIH0KICBjdm94LkNocm9tZVZveC5uYXZpZ2F0aW9uTWFuYWdlci5z
-eW5jVG9Ob2RlKHRhcmdldCk7Cn07CgpmdW5jdGlvbiBzcGVha05leHRJdGVtKCkgewogIGlmICgh
-aXNDaHJvbWVWb3hBY3RpdmUoKSkgewogICAgcmV0dXJuOwogIH0KICAKICBjdm94LkNocm9tZVZv
-eC5uYXZpZ2F0aW9uTWFuYWdlci5zd2l0Y2hUb1N0cmF0ZWd5KAogICAgICBjdm94LkNocm9tZVZv
-eE5hdmlnYXRpb25NYW5hZ2VyLlNUUkFURUdJRVMuTElORUFSRE9NLCAwLCB0cnVlKTsKICBjdm94
-LkNocm9tZVZveC5uYXZpZ2F0aW9uTWFuYWdlci5uZXh0KHRydWUpOwogIGlmICghY3ZveC5Eb21V
-dGlsLmlzRGVzY2VuZGFudE9mTm9kZSgKICAgICAgY3ZveC5DaHJvbWVWb3gubmF2aWdhdGlvbk1h
-bmFnZXIuZ2V0Q3VycmVudE5vZGUoKSwgc2xpZGVFbHNbY3VyU2xpZGVdKSl7CiAgICB2YXIgdGFy
-Z2V0ID0gc2xpZGVFbHNbY3VyU2xpZGVdOwogICAgd2hpbGUgKHRhcmdldC5maXJzdENoaWxkKSB7
-CiAgICAgIHRhcmdldCA9IHRhcmdldC5maXJzdENoaWxkOwogICAgfQogICAgY3ZveC5DaHJvbWVW
-b3gubmF2aWdhdGlvbk1hbmFnZXIuc3luY1RvTm9kZSh0YXJnZXQpOwogICAgY3ZveC5DaHJvbWVW
-b3gubmF2aWdhdGlvbk1hbmFnZXIubmV4dCh0cnVlKTsKICB9CiAgY3ZveC5DaHJvbWVWb3hVc2Vy
-Q29tbWFuZHMuZmluaXNoTmF2Q29tbWFuZCgnJyk7Cn07CgpmdW5jdGlvbiBzcGVha1ByZXZJdGVt
-KCkgewogIGlmICghaXNDaHJvbWVWb3hBY3RpdmUoKSkgewogICAgcmV0dXJuOwogIH0KICAKICBj
-dm94LkNocm9tZVZveC5uYXZpZ2F0aW9uTWFuYWdlci5zd2l0Y2hUb1N0cmF0ZWd5KAogICAgICBj
-dm94LkNocm9tZVZveE5hdmlnYXRpb25NYW5hZ2VyLlNUUkFURUdJRVMuTElORUFSRE9NLCAwLCB0
-cnVlKTsKICBjdm94LkNocm9tZVZveC5uYXZpZ2F0aW9uTWFuYWdlci5wcmV2aW91cyh0cnVlKTsK
-ICBpZiAoIWN2b3guRG9tVXRpbC5pc0Rlc2NlbmRhbnRPZk5vZGUoCiAgICAgIGN2b3guQ2hyb21l
-Vm94Lm5hdmlnYXRpb25NYW5hZ2VyLmdldEN1cnJlbnROb2RlKCksIHNsaWRlRWxzW2N1clNsaWRl
-XSkpewogICAgdmFyIHRhcmdldCA9IHNsaWRlRWxzW2N1clNsaWRlXTsKICAgIHdoaWxlICh0YXJn
-ZXQubGFzdENoaWxkKXsKICAgICAgdGFyZ2V0ID0gdGFyZ2V0Lmxhc3RDaGlsZDsKICAgIH0KICAg
-IGN2b3guQ2hyb21lVm94Lm5hdmlnYXRpb25NYW5hZ2VyLnN5bmNUb05vZGUodGFyZ2V0KTsKICAg
-IGN2b3guQ2hyb21lVm94Lm5hdmlnYXRpb25NYW5hZ2VyLnByZXZpb3VzKHRydWUpOwogIH0KICBj
-dm94LkNocm9tZVZveFVzZXJDb21tYW5kcy5maW5pc2hOYXZDb21tYW5kKCcnKTsKfTsKCi8qIEhh
-c2ggZnVuY3Rpb25zICovCgpmdW5jdGlvbiBnZXRDdXJTbGlkZUZyb21IYXNoKCkgewogIHZhciBz
-bGlkZU5vID0gcGFyc2VJbnQobG9jYXRpb24uaGFzaC5zdWJzdHIoMSkpOwoKICBpZiAoc2xpZGVO
-bykgewogICAgY3VyU2xpZGUgPSBzbGlkZU5vIC0gMTsKICB9IGVsc2UgewogICAgY3VyU2xpZGUg
-PSAwOwogIH0KfTsKCmZ1bmN0aW9uIHVwZGF0ZUhhc2goKSB7CiAgbG9jYXRpb24ucmVwbGFjZSgn
-IycgKyAoY3VyU2xpZGUgKyAxKSk7Cn07CgovKiBFdmVudCBsaXN0ZW5lcnMgKi8KCmZ1bmN0aW9u
-IGhhbmRsZUJvZHlLZXlEb3duKGV2ZW50KSB7CiAgc3dpdGNoIChldmVudC5rZXlDb2RlKSB7CiAg
-ICBjYXNlIDM5OiAvLyByaWdodCBhcnJvdwogICAgY2FzZSAxMzogLy8gRW50ZXIKICAgIGNhc2Ug
-MzI6IC8vIHNwYWNlCiAgICBjYXNlIDM0OiAvLyBQZ0RuCiAgICAgIG5leHRTbGlkZSgpOwogICAg
-ICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICBicmVhazsKCiAgICBjYXNlIDM3OiAvLyBs
-ZWZ0IGFycm93CiAgICBjYXNlIDg6IC8vIEJhY2tzcGFjZQogICAgY2FzZSAzMzogLy8gUGdVcAog
-ICAgICBwcmV2U2xpZGUoKTsKICAgICAgZXZlbnQucHJldmVudERlZmF1bHQoKTsKICAgICAgYnJl
-YWs7CgogICAgY2FzZSA0MDogLy8gZG93biBhcnJvdwogICAgICBpZiAoaXNDaHJvbWVWb3hBY3Rp
-dmUoKSkgewogICAgICAgIHNwZWFrTmV4dEl0ZW0oKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBu
-ZXh0U2xpZGUoKTsKICAgICAgfQogICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICBi
-cmVhazsKCiAgICBjYXNlIDM4OiAvLyB1cCBhcnJvdwogICAgICBpZiAoaXNDaHJvbWVWb3hBY3Rp
-dmUoKSkgewogICAgICAgIHNwZWFrUHJldkl0ZW0oKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBw
-cmV2U2xpZGUoKTsKICAgICAgfQogICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICBi
-cmVhazsKICB9Cn07CgpmdW5jdGlvbiBhZGRFdmVudExpc3RlbmVycygpIHsKICBkb2N1bWVudC5h
-ZGRFdmVudExpc3RlbmVyKCdrZXlkb3duJywgaGFuZGxlQm9keUtleURvd24sIGZhbHNlKTsgIAp9
-OwoKLyogSW5pdGlhbGl6YXRpb24gKi8KCmZ1bmN0aW9uIGFkZFByZXR0aWZ5KCkgewogIHZhciBl
-bHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdwcmUnKTsKICBmb3IgKHZhciBpID0gMCwg
-ZWw7IGVsID0gZWxzW2ldOyBpKyspIHsKICAgIGlmICghZWwuY2xhc3NMaXN0LmNvbnRhaW5zKCdu
-b3ByZXR0eXByaW50JykpIHsKICAgICAgZWwuY2xhc3NMaXN0LmFkZCgncHJldHR5cHJpbnQnKTsK
-ICAgIH0KICB9CiAgCiAgdmFyIGVsID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7
-CiAgZWwudHlwZSA9ICd0ZXh0L2phdmFzY3JpcHQnOwogIGVsLnNyYyA9ICIkeHdpa2kuZ2V0QXR0
-YWNobWVudFVSTCgnUHJlc2VudGF0aW9uLlByZXNlbnRhdGlvblNraW4nLCAncHJldHRpZnkuanMn
-KSI7CiAgZWwub25sb2FkID0gZnVuY3Rpb24oKSB7CiAgICBwcmV0dHlQcmludCgpOwogIH0KICBk
-b2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGVsKTsKfTsKCmZ1bmN0aW9uIGFkZEZvbnRTdHlsZSgp
-IHsKICB2YXIgZWwgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdsaW5rJyk7CiAgZWwucmVsID0g
-J3N0eWxlc2hlZXQnOwogIGVsLnR5cGUgPSAndGV4dC9jc3MnOwogIGVsLmhyZWYgPSAnaHR0cDov
-L2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9JyArCiAgICAgICAgICAgICdPcGVuK1Nh
-bnM6cmVndWxhcixzZW1pYm9sZCxpdGFsaWMsaXRhbGljc2VtaWJvbGR8RHJvaWQrU2FucytNb25v
-JzsKCiAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChlbCk7Cn07CgpmdW5jdGlvbiBhZGRHZW5l
-cmFsU3R5bGUoKSB7CiAgdmFyIGVsID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnbGluaycpOwog
-IGVsLnJlbCA9ICdzdHlsZXNoZWV0JzsKICBlbC50eXBlID0gJ3RleHQvY3NzJzsKICBlbC5ocmVm
-ID0gIiR4d2lraS5nZXRBdHRhY2htZW50VVJMKCdQcmVzZW50YXRpb24uUHJlc2VudGF0aW9uU2tp
-bicsICdzdHlsZXMuY3NzJykiOwogIGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoZWwpOwogIAog
-IHZhciBlbCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ21ldGEnKTsKICBlbC5uYW1lID0gJ3Zp
-ZXdwb3J0JzsKICBlbC5jb250ZW50ID0gJ3dpZHRoPTExMDAsaGVpZ2h0PTc1MCc7CiAgZG9jdW1l
-bnQucXVlcnlTZWxlY3RvcignaGVhZCcpLmFwcGVuZENoaWxkKGVsKTsKICAKICB2YXIgZWwgPSBk
-b2N1bWVudC5jcmVhdGVFbGVtZW50KCdtZXRhJyk7CiAgZWwubmFtZSA9ICdhcHBsZS1tb2JpbGUt
-d2ViLWFwcC1jYXBhYmxlJzsKICBlbC5jb250ZW50ID0gJ3llcyc7CiAgZG9jdW1lbnQucXVlcnlT
-ZWxlY3RvcignaGVhZCcpLmFwcGVuZENoaWxkKGVsKTsKfTsKCmZ1bmN0aW9uIG1ha2VCdWlsZExp
-c3RzKCkgewogIGZvciAodmFyIGkgPSBjdXJTbGlkZSwgc2xpZGU7IHNsaWRlID0gc2xpZGVFbHNb
-aV07IGkrKykgewogICAgdmFyIGl0ZW1zID0gc2xpZGUucXVlcnlTZWxlY3RvckFsbCgnLmJ1aWxk
-ID4gKicpOwogICAgZm9yICh2YXIgaiA9IDAsIGl0ZW07IGl0ZW0gPSBpdGVtc1tqXTsgaisrKSB7
-CiAgICAgIGlmIChpdGVtLmNsYXNzTGlzdCkgewogICAgICAgIGl0ZW0uY2xhc3NMaXN0LmFkZCgn
-dG8tYnVpbGQnKTsKICAgICAgfQogICAgfQogIH0KfTsKCmZ1bmN0aW9uIGhhbmRsZURvbUxvYWRl
-ZCgpIHsKICBzbGlkZUVscyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ3NlY3Rpb24uc2xp
-ZGVzID4gYXJ0aWNsZScpOwoKICAvLyBBZGQgdGhlIHRvdGFsIHNsaWRlIGNvdW50IGFzIGFuIGF0
-dHJpYnV0ZSB0byBlYWNoIHNsaWRlLCBzbyB0aGF0IGl0IGNhbiBiZSBkaXNwbGF5ZWQgdXNpbmcg
-Q1NTLgogIGZvciAodmFyIGkgPSAwOyBpIDwgc2xpZGVFbHMubGVuZ3RoOyArK2kpIHsKICAgIHNs
-aWRlRWxzW2ldLnNldEF0dHJpYnV0ZSgndHBuJywgc2xpZGVFbHMubGVuZ3RoKTsKICB9CgogIHNl
-dHVwRnJhbWVzKCk7CgogIGFkZEZvbnRTdHlsZSgpOwogIGFkZEdlbmVyYWxTdHlsZSgpOwogIGFk
-ZFByZXR0aWZ5KCk7CiAgYWRkRXZlbnRMaXN0ZW5lcnMoKTsKCiAgdXBkYXRlU2xpZGVzKCk7Cgog
-IHNldHVwSW50ZXJhY3Rpb24oKTsKICBtYWtlQnVpbGRMaXN0cygpOwoKICBkb2N1bWVudC5ib2R5
-LmNsYXNzTGlzdC5hZGQoJ2xvYWRlZCcpOwp9OwoKZnVuY3Rpb24gaW5pdGlhbGl6ZSgpIHsKICBn
-ZXRDdXJTbGlkZUZyb21IYXNoKCk7CgogIGlmICh3aW5kb3dbJ19EQ0wnXSkgewogICAgaGFuZGxl
-RG9tTG9hZGVkKCk7CiAgfSBlbHNlIHsKICAgIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ0RP
-TUNvbnRlbnRMb2FkZWQnLCBoYW5kbGVEb21Mb2FkZWQsIGZhbHNlKTsKICB9Cn0KCi8vIElmID9k
-ZWJ1ZyBleGlzdHMgdGhlbiBsb2FkIHRoZSBzY3JpcHQgcmVsYXRpdmUgaW5zdGVhZCBvZiBhYnNv
-bHV0ZQppZiAoIXdpbmRvd1snX0RFQlVHJ10gJiYgZG9jdW1lbnQubG9jYXRpb24uaHJlZi5pbmRl
-eE9mKCc/ZGVidWcnKSAhPT0gLTEpIHsKICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01D
-b250ZW50TG9hZGVkJywgZnVuY3Rpb24oKSB7CiAgICAvLyBBdm9pZCBtaXNzaW5nIHRoZSBEb21D
-b250ZW50TG9hZGVkIGV2ZW50CiAgICB3aW5kb3dbJ19EQ0wnXSA9IHRydWUKICB9LCBmYWxzZSk7
-CgogIHdpbmRvd1snX0RFQlVHJ10gPSB0cnVlOwogIHZhciBzY3JpcHQgPSBkb2N1bWVudC5jcmVh
-dGVFbGVtZW50KCdzY3JpcHQnKTsKICBzY3JpcHQudHlwZSA9ICd0ZXh0L2phdmFzY3JpcHQnOwog
-IHNjcmlwdC5zcmMgPSAnLi4vc2xpZGVzLmpzJzsKICB2YXIgcyA9IGRvY3VtZW50LmdldEVsZW1l
-bnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICBzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHNj
-cmlwdCwgcyk7CgogIC8vIFJlbW92ZSB0aGlzIHNjcmlwdAogIHMucGFyZW50Tm9kZS5yZW1vdmVD
-aGlsZChzKTsKfSBlbHNlIHsKICBpbml0aWFsaXplKCk7Cn0K
-</content>
-  </attachment>
-  <attachment>
-    <filename>styles.css</filename>
-    <filesize>9809</filesize>
-    <author>xwiki:XWiki.Admin</author>
-    <date>1386776242000</date>
-    <version>1.2</version>
-    <comment/>
-    <content>LyoKICBHb29nbGUgSFRNTDUgc2xpZGVzIHRlbXBsYXRlCgogIEF1dGhvcnM6IEx1a2UgTWFow6kg
+XTsgaSsrKSB7CiAgICBkaXNhYmxlRnJhbWUoZnJhbWUpOwogIH0KfTsKCmZ1bmN0aW9uIGVuYWJs
+ZVNsaWRlRnJhbWVzKG5vKSB7CiAgdmFyIGVsID0gZ2V0U2xpZGVFbChubyk7CiAgaWYgKCFlbCkg
+ewogICAgcmV0dXJuOwogIH0KCiAgdmFyIGZyYW1lcyA9IGVsLmdldEVsZW1lbnRzQnlUYWdOYW1l
+KCdpZnJhbWUnKTsKICBmb3IgKHZhciBpID0gMCwgZnJhbWU7IGZyYW1lID0gZnJhbWVzW2ldOyBp
+KyspIHsKICAgIGVuYWJsZUZyYW1lKGZyYW1lKTsKICB9Cn07CgpmdW5jdGlvbiBkaXNhYmxlRnJh
+bWUoZnJhbWUpIHsKICBmcmFtZS5zcmMgPSAnYWJvdXQ6YmxhbmsnOwp9OwoKZnVuY3Rpb24gZW5h
+YmxlRnJhbWUoZnJhbWUpIHsKICB2YXIgc3JjID0gZnJhbWUuX3NyYzsKCiAgaWYgKGZyYW1lLnNy
+YyAhPSBzcmMgJiYgc3JjICE9ICdhYm91dDpibGFuaycpIHsKICAgIGZyYW1lLnNyYyA9IHNyYzsK
+ICB9Cn07CgpmdW5jdGlvbiBzZXR1cEZyYW1lcygpIHsKICB2YXIgZnJhbWVzID0gZG9jdW1lbnQu
+cXVlcnlTZWxlY3RvckFsbCgnaWZyYW1lJyk7CiAgZm9yICh2YXIgaSA9IDAsIGZyYW1lOyBmcmFt
+ZSA9IGZyYW1lc1tpXTsgaSsrKSB7CiAgICBmcmFtZS5fc3JjID0gZnJhbWUuc3JjOwogICAgZGlz
+YWJsZUZyYW1lKGZyYW1lKTsKICB9CiAgCiAgZW5hYmxlU2xpZGVGcmFtZXMoY3VyU2xpZGUpOwog
+IGVuYWJsZVNsaWRlRnJhbWVzKGN1clNsaWRlICsgMSk7CiAgZW5hYmxlU2xpZGVGcmFtZXMoY3Vy
+U2xpZGUgKyAyKTsgIAp9OwoKZnVuY3Rpb24gc2V0dXBJbnRlcmFjdGlvbigpIHsKICAvKiBDbGlj
+a2luZyBhbmQgdGFwcGluZyAqLwogIAogIHZhciBlbCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQo
+J2RpdicpOwogIGVsLmNsYXNzTmFtZSA9ICdzbGlkZS1hcmVhJzsKICBlbC5pZCA9ICdwcmV2LXNs
+aWRlLWFyZWEnOyAgCiAgZWwuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCBwcmV2U2xpZGUsIGZh
+bHNlKTsKICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCdzZWN0aW9uLnNsaWRlcycpLmFwcGVuZENo
+aWxkKGVsKTsKCiAgdmFyIGVsID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2Jyk7CiAgZWwu
+Y2xhc3NOYW1lID0gJ3NsaWRlLWFyZWEnOwogIGVsLmlkID0gJ25leHQtc2xpZGUtYXJlYSc7ICAK
+ICBlbC5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsIG5leHRTbGlkZSwgZmFsc2UpOwogIGRvY3Vt
+ZW50LnF1ZXJ5U2VsZWN0b3IoJ3NlY3Rpb24uc2xpZGVzJykuYXBwZW5kQ2hpbGQoZWwpOyAgCiAg
+CiAgLyogU3dpcGluZyAqLwogIAogIGRvY3VtZW50LmJvZHkuYWRkRXZlbnRMaXN0ZW5lcigndG91
+Y2hzdGFydCcsIGhhbmRsZVRvdWNoU3RhcnQsIGZhbHNlKTsKfQoKLyogQ2hyb21lVm94IHN1cHBv
+cnQgKi8KCmZ1bmN0aW9uIGlzQ2hyb21lVm94QWN0aXZlKCkgewogIGlmICh0eXBlb2YoY3ZveCkg
+PT0gJ3VuZGVmaW5lZCcpIHsKICAgIHJldHVybiBmYWxzZTsKICB9IGVsc2UgewogICAgcmV0dXJu
+IHRydWU7CiAgfQp9OwoKZnVuY3Rpb24gc3BlYWtBbmRTeW5jVG9Ob2RlKG5vZGUpIHsKICBpZiAo
+IWlzQ2hyb21lVm94QWN0aXZlKCkpIHsKICAgIHJldHVybjsKICB9CiAgCiAgY3ZveC5DaHJvbWVW
+b3gubmF2aWdhdGlvbk1hbmFnZXIuc3dpdGNoVG9TdHJhdGVneSgKICAgICAgY3ZveC5DaHJvbWVW
+b3hOYXZpZ2F0aW9uTWFuYWdlci5TVFJBVEVHSUVTLkxJTkVBUkRPTSwgMCwgdHJ1ZSk7ICAKICBj
+dm94LkNocm9tZVZveC5uYXZpZ2F0aW9uTWFuYWdlci5zeW5jVG9Ob2RlKG5vZGUpOwogIGN2b3gu
+Q2hyb21lVm94VXNlckNvbW1hbmRzLmZpbmlzaE5hdkNvbW1hbmQoJycpOwogIHZhciB0YXJnZXQg
+PSBub2RlOwogIHdoaWxlICh0YXJnZXQuZmlyc3RDaGlsZCkgewogICAgdGFyZ2V0ID0gdGFyZ2V0
+LmZpcnN0Q2hpbGQ7CiAgfQogIGN2b3guQ2hyb21lVm94Lm5hdmlnYXRpb25NYW5hZ2VyLnN5bmNU
+b05vZGUodGFyZ2V0KTsKfTsKCmZ1bmN0aW9uIHNwZWFrTmV4dEl0ZW0oKSB7CiAgaWYgKCFpc0No
+cm9tZVZveEFjdGl2ZSgpKSB7CiAgICByZXR1cm47CiAgfQogIAogIGN2b3guQ2hyb21lVm94Lm5h
+dmlnYXRpb25NYW5hZ2VyLnN3aXRjaFRvU3RyYXRlZ3koCiAgICAgIGN2b3guQ2hyb21lVm94TmF2
+aWdhdGlvbk1hbmFnZXIuU1RSQVRFR0lFUy5MSU5FQVJET00sIDAsIHRydWUpOwogIGN2b3guQ2hy
+b21lVm94Lm5hdmlnYXRpb25NYW5hZ2VyLm5leHQodHJ1ZSk7CiAgaWYgKCFjdm94LkRvbVV0aWwu
+aXNEZXNjZW5kYW50T2ZOb2RlKAogICAgICBjdm94LkNocm9tZVZveC5uYXZpZ2F0aW9uTWFuYWdl
+ci5nZXRDdXJyZW50Tm9kZSgpLCBzbGlkZUVsc1tjdXJTbGlkZV0pKXsKICAgIHZhciB0YXJnZXQg
+PSBzbGlkZUVsc1tjdXJTbGlkZV07CiAgICB3aGlsZSAodGFyZ2V0LmZpcnN0Q2hpbGQpIHsKICAg
+ICAgdGFyZ2V0ID0gdGFyZ2V0LmZpcnN0Q2hpbGQ7CiAgICB9CiAgICBjdm94LkNocm9tZVZveC5u
+YXZpZ2F0aW9uTWFuYWdlci5zeW5jVG9Ob2RlKHRhcmdldCk7CiAgICBjdm94LkNocm9tZVZveC5u
+YXZpZ2F0aW9uTWFuYWdlci5uZXh0KHRydWUpOwogIH0KICBjdm94LkNocm9tZVZveFVzZXJDb21t
+YW5kcy5maW5pc2hOYXZDb21tYW5kKCcnKTsKfTsKCmZ1bmN0aW9uIHNwZWFrUHJldkl0ZW0oKSB7
+CiAgaWYgKCFpc0Nocm9tZVZveEFjdGl2ZSgpKSB7CiAgICByZXR1cm47CiAgfQogIAogIGN2b3gu
+Q2hyb21lVm94Lm5hdmlnYXRpb25NYW5hZ2VyLnN3aXRjaFRvU3RyYXRlZ3koCiAgICAgIGN2b3gu
+Q2hyb21lVm94TmF2aWdhdGlvbk1hbmFnZXIuU1RSQVRFR0lFUy5MSU5FQVJET00sIDAsIHRydWUp
+OwogIGN2b3guQ2hyb21lVm94Lm5hdmlnYXRpb25NYW5hZ2VyLnByZXZpb3VzKHRydWUpOwogIGlm
+ICghY3ZveC5Eb21VdGlsLmlzRGVzY2VuZGFudE9mTm9kZSgKICAgICAgY3ZveC5DaHJvbWVWb3gu
+bmF2aWdhdGlvbk1hbmFnZXIuZ2V0Q3VycmVudE5vZGUoKSwgc2xpZGVFbHNbY3VyU2xpZGVdKSl7
+CiAgICB2YXIgdGFyZ2V0ID0gc2xpZGVFbHNbY3VyU2xpZGVdOwogICAgd2hpbGUgKHRhcmdldC5s
+YXN0Q2hpbGQpewogICAgICB0YXJnZXQgPSB0YXJnZXQubGFzdENoaWxkOwogICAgfQogICAgY3Zv
+eC5DaHJvbWVWb3gubmF2aWdhdGlvbk1hbmFnZXIuc3luY1RvTm9kZSh0YXJnZXQpOwogICAgY3Zv
+eC5DaHJvbWVWb3gubmF2aWdhdGlvbk1hbmFnZXIucHJldmlvdXModHJ1ZSk7CiAgfQogIGN2b3gu
+Q2hyb21lVm94VXNlckNvbW1hbmRzLmZpbmlzaE5hdkNvbW1hbmQoJycpOwp9OwoKLyogSGFzaCBm
+dW5jdGlvbnMgKi8KCmZ1bmN0aW9uIGdldEN1clNsaWRlRnJvbUhhc2goKSB7CiAgdmFyIHNsaWRl
+Tm8gPSBwYXJzZUludChsb2NhdGlvbi5oYXNoLnN1YnN0cigxKSk7CgogIGlmIChzbGlkZU5vKSB7
+CiAgICBjdXJTbGlkZSA9IHNsaWRlTm8gLSAxOwogIH0gZWxzZSB7CiAgICBjdXJTbGlkZSA9IDA7
+CiAgfQp9OwoKZnVuY3Rpb24gdXBkYXRlSGFzaCgpIHsKICBsb2NhdGlvbi5yZXBsYWNlKCcjJyAr
+IChjdXJTbGlkZSArIDEpKTsKfTsKCi8qIEV2ZW50IGxpc3RlbmVycyAqLwoKZnVuY3Rpb24gaGFu
+ZGxlQm9keUtleURvd24oZXZlbnQpIHsKICBzd2l0Y2ggKGV2ZW50LmtleUNvZGUpIHsKICAgIGNh
+c2UgMzk6IC8vIHJpZ2h0IGFycm93CiAgICBjYXNlIDEzOiAvLyBFbnRlcgogICAgY2FzZSAzMjog
+Ly8gc3BhY2UKICAgIGNhc2UgMzQ6IC8vIFBnRG4KICAgICAgbmV4dFNsaWRlKCk7CiAgICAgIGV2
+ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICAgIGJyZWFrOwoKICAgIGNhc2UgMzc6IC8vIGxlZnQg
+YXJyb3cKICAgIGNhc2UgODogLy8gQmFja3NwYWNlCiAgICBjYXNlIDMzOiAvLyBQZ1VwCiAgICAg
+IHByZXZTbGlkZSgpOwogICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgICBicmVhazsK
+CiAgICBjYXNlIDQwOiAvLyBkb3duIGFycm93CiAgICAgIGlmIChpc0Nocm9tZVZveEFjdGl2ZSgp
+KSB7CiAgICAgICAgc3BlYWtOZXh0SXRlbSgpOwogICAgICB9IGVsc2UgewogICAgICAgIG5leHRT
+bGlkZSgpOwogICAgICB9CiAgICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICAgIGJyZWFr
+OwoKICAgIGNhc2UgMzg6IC8vIHVwIGFycm93CiAgICAgIGlmIChpc0Nocm9tZVZveEFjdGl2ZSgp
+KSB7CiAgICAgICAgc3BlYWtQcmV2SXRlbSgpOwogICAgICB9IGVsc2UgewogICAgICAgIHByZXZT
+bGlkZSgpOwogICAgICB9CiAgICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICAgIGJyZWFr
+OwogIH0KfTsKCmZ1bmN0aW9uIGFkZEV2ZW50TGlzdGVuZXJzKCkgewogIGRvY3VtZW50LmFkZEV2
+ZW50TGlzdGVuZXIoJ2tleWRvd24nLCBoYW5kbGVCb2R5S2V5RG93biwgZmFsc2UpOyAgCn07Cgov
+KiBJbml0aWFsaXphdGlvbiAqLwoKZnVuY3Rpb24gYWRkUHJldHRpZnkoKSB7CiAgdmFyIGVscyA9
+IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ3ByZScpOwogIGZvciAodmFyIGkgPSAwLCBlbDsg
+ZWwgPSBlbHNbaV07IGkrKykgewogICAgaWYgKCFlbC5jbGFzc0xpc3QuY29udGFpbnMoJ25vcHJl
+dHR5cHJpbnQnKSkgewogICAgICBlbC5jbGFzc0xpc3QuYWRkKCdwcmV0dHlwcmludCcpOwogICAg
+fQogIH0KICAKICB2YXIgZWwgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICBl
+bC50eXBlID0gJ3RleHQvamF2YXNjcmlwdCc7CiAgZWwuc3JjID0gIiR4d2lraS5nZXRBdHRhY2ht
+ZW50VVJMKCdQcmVzZW50YXRpb24uUHJlc2VudGF0aW9uU2tpbicsICdwcmV0dGlmeS5qcycpIjsK
+ICBlbC5vbmxvYWQgPSBmdW5jdGlvbigpIHsKICAgIHByZXR0eVByaW50KCk7CiAgfQogIGRvY3Vt
+ZW50LmJvZHkuYXBwZW5kQ2hpbGQoZWwpOwp9OwoKZnVuY3Rpb24gYWRkRm9udFN0eWxlKCkgewog
+IHZhciBlbCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2xpbmsnKTsKICBlbC5yZWwgPSAnc3R5
+bGVzaGVldCc7CiAgZWwudHlwZSA9ICd0ZXh0L2Nzcyc7CiAgZWwuaHJlZiA9ICdodHRwOi8vZm9u
+dHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT0nICsKICAgICAgICAgICAgJ09wZW4rU2Fuczpy
+ZWd1bGFyLHNlbWlib2xkLGl0YWxpYyxpdGFsaWNzZW1pYm9sZHxEcm9pZCtTYW5zK01vbm8nOwoK
+ICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGVsKTsKfTsKCmZ1bmN0aW9uIGFkZEdlbmVyYWxT
+dHlsZSgpIHsKICB2YXIgZWwgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdsaW5rJyk7CiAgZWwu
+cmVsID0gJ3N0eWxlc2hlZXQnOwogIGVsLnR5cGUgPSAndGV4dC9jc3MnOwogIGVsLmhyZWYgPSAi
+JHh3aWtpLmdldEF0dGFjaG1lbnRVUkwoJ1ByZXNlbnRhdGlvbi5QcmVzZW50YXRpb25Ta2luJywg
+J3N0eWxlcy5jc3MnKSI7CiAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChlbCk7CiAgCiAgdmFy
+IGVsID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnbWV0YScpOwogIGVsLm5hbWUgPSAndmlld3Bv
+cnQnOwogIGVsLmNvbnRlbnQgPSAnd2lkdGg9MTEwMCxoZWlnaHQ9NzUwJzsKICBkb2N1bWVudC5x
+dWVyeVNlbGVjdG9yKCdoZWFkJykuYXBwZW5kQ2hpbGQoZWwpOwogIAogIHZhciBlbCA9IGRvY3Vt
+ZW50LmNyZWF0ZUVsZW1lbnQoJ21ldGEnKTsKICBlbC5uYW1lID0gJ2FwcGxlLW1vYmlsZS13ZWIt
+YXBwLWNhcGFibGUnOwogIGVsLmNvbnRlbnQgPSAneWVzJzsKICBkb2N1bWVudC5xdWVyeVNlbGVj
+dG9yKCdoZWFkJykuYXBwZW5kQ2hpbGQoZWwpOwp9OwoKZnVuY3Rpb24gbWFrZUJ1aWxkTGlzdHMo
+KSB7CiAgZm9yICh2YXIgaSA9IGN1clNsaWRlLCBzbGlkZTsgc2xpZGUgPSBzbGlkZUVsc1tpXTsg
+aSsrKSB7CiAgICB2YXIgaXRlbXMgPSBzbGlkZS5xdWVyeVNlbGVjdG9yQWxsKCcuYnVpbGQgPiAq
+Jyk7CiAgICBmb3IgKHZhciBqID0gMCwgaXRlbTsgaXRlbSA9IGl0ZW1zW2pdOyBqKyspIHsKICAg
+ICAgaWYgKGl0ZW0uY2xhc3NMaXN0KSB7CiAgICAgICAgaXRlbS5jbGFzc0xpc3QuYWRkKCd0by1i
+dWlsZCcpOwogICAgICB9CiAgICB9CiAgfQp9OwoKZnVuY3Rpb24gaGFuZGxlRG9tTG9hZGVkKCkg
+ewogIHNsaWRlRWxzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnc2VjdGlvbi5zbGlkZXMg
+PiBhcnRpY2xlJyk7CgogIC8vIEFkZCB0aGUgdG90YWwgc2xpZGUgY291bnQgYXMgYW4gYXR0cmli
+dXRlIHRvIGVhY2ggc2xpZGUsIHNvIHRoYXQgaXQgY2FuIGJlIGRpc3BsYXllZCB1c2luZyBDU1Mu
+CiAgZm9yICh2YXIgaSA9IDA7IGkgPCBzbGlkZUVscy5sZW5ndGg7ICsraSkgewogICAgc2xpZGVF
+bHNbaV0uc2V0QXR0cmlidXRlKCd0cG4nLCBzbGlkZUVscy5sZW5ndGgpOwogIH0KCiAgc2V0dXBG
+cmFtZXMoKTsKCiAgYWRkRm9udFN0eWxlKCk7CiAgYWRkR2VuZXJhbFN0eWxlKCk7CiAgYWRkUHJl
+dHRpZnkoKTsKICBhZGRFdmVudExpc3RlbmVycygpOwoKICB1cGRhdGVTbGlkZXMoKTsKCiAgc2V0
+dXBJbnRlcmFjdGlvbigpOwogIG1ha2VCdWlsZExpc3RzKCk7CgogIGRvY3VtZW50LmJvZHkuY2xh
+c3NMaXN0LmFkZCgnbG9hZGVkJyk7Cn07CgpmdW5jdGlvbiBpbml0aWFsaXplKCkgewogIGdldEN1
+clNsaWRlRnJvbUhhc2goKTsKCiAgaWYgKHdpbmRvd1snX0RDTCddKSB7CiAgICBoYW5kbGVEb21M
+b2FkZWQoKTsKICB9IGVsc2UgewogICAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29u
+dGVudExvYWRlZCcsIGhhbmRsZURvbUxvYWRlZCwgZmFsc2UpOwogIH0KfQoKLy8gSWYgP2RlYnVn
+IGV4aXN0cyB0aGVuIGxvYWQgdGhlIHNjcmlwdCByZWxhdGl2ZSBpbnN0ZWFkIG9mIGFic29sdXRl
+CmlmICghd2luZG93WydfREVCVUcnXSAmJiBkb2N1bWVudC5sb2NhdGlvbi5ocmVmLmluZGV4T2Yo
+Jz9kZWJ1ZycpICE9PSAtMSkgewogIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ0RPTUNvbnRl
+bnRMb2FkZWQnLCBmdW5jdGlvbigpIHsKICAgIC8vIEF2b2lkIG1pc3NpbmcgdGhlIERvbUNvbnRl
+bnRMb2FkZWQgZXZlbnQKICAgIHdpbmRvd1snX0RDTCddID0gdHJ1ZQogIH0sIGZhbHNlKTsKCiAg
+d2luZG93WydfREVCVUcnXSA9IHRydWU7CiAgdmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVs
+ZW1lbnQoJ3NjcmlwdCcpOwogIHNjcmlwdC50eXBlID0gJ3RleHQvamF2YXNjcmlwdCc7CiAgc2Ny
+aXB0LnNyYyA9ICcuLi9zbGlkZXMuanMnOwogIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNC
+eVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogIHMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoc2NyaXB0
+LCBzKTsKCiAgLy8gUmVtb3ZlIHRoaXMgc2NyaXB0CiAgcy5wYXJlbnROb2RlLnJlbW92ZUNoaWxk
+KHMpOwp9IGVsc2UgewogIGluaXRpYWxpemUoKTsKfQo=
+</content></attachment><attachment>
+<filename>styles.css</filename>
+<filesize>9809</filesize>
+<author>xwiki:XWiki.Admin</author>
+<date>1386776242000</date>
+<version>1.2</version>
+<comment></comment><content>LyoKICBHb29nbGUgSFRNTDUgc2xpZGVzIHRlbXBsYXRlCgogIEF1dGhvcnM6IEx1a2UgTWFow6kg
 KGNvZGUpCiAgICAgICAgICAgTWFyY2luIFdpY2hhcnkgKGNvZGUgYW5kIGRlc2lnbikKCiAgICAg
 ICAgICAgRG9taW5pYyBNYXp6b25pIChicm93c2VyIGNvbXBhdGliaWxpdHkpCiAgICAgICAgICAg
 Q2hhcmxlcyBDaGVuIChDaHJvbWVWb3ggc3VwcG9ydCkKCiAgVVJMOiBodHRwOi8vY29kZS5nb29n
@@ -1598,204 +1560,203 @@ bnRlbnQ6IGNvdW50ZXIocG5vKSAiLyIgYXR0cih0cG4pOwogIGxlZnQ6IDIwcHg7CiAgcG9zaXRp
 b246IGFic29sdXRlOwp9CmFydGljbGUubm90aXRsZSBoMiwgYXJ0aWNsZS5ub3RpdGxlIGgzIHsK
 ICBkaXNwbGF5OiBub25lOwp9CgphcnRpY2xlIC5zdmctYnV0dG9ucyB7CiAgZGlzcGxheTogbm9u
 ZTsKfQo=
-</content>
-  </attachment>
-  <object>
-    <class>
-      <name>XWiki.DocumentSheetBinding</name>
-      <customClass/>
-      <customMapping/>
-      <defaultViewSheet/>
-      <defaultEditSheet/>
-      <defaultWeb/>
-      <nameField/>
-      <validationScript/>
-      <sheet>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>sheet</name>
-        <number>1</number>
-        <picker>0</picker>
-        <prettyName>Sheet</prettyName>
-        <size>30</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </sheet>
-    </class>
-    <name>Presentation.PresentationSkin</name>
-    <number>0</number>
-    <className>XWiki.DocumentSheetBinding</className>
-    <guid>0091e8a9-12d8-418d-98db-ca6236019533</guid>
-    <property>
-      <sheet/>
-    </property>
-  </object>
-  <object>
-    <class>
-      <name>XWiki.XWikiSkins</name>
-      <customClass/>
-      <customMapping/>
-      <defaultViewSheet/>
-      <defaultEditSheet/>
-      <defaultWeb/>
-      <nameField/>
-      <validationScript/>
-      <baseskin>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>baseskin</name>
-        <number>2</number>
-        <picker>0</picker>
-        <prettyName>Base Skin</prettyName>
-        <size>30</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </baseskin>
-      <edit.vm>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <editor>PureText</editor>
-        <name>edit.vm</name>
-        <number>9</number>
-        <picker>0</picker>
-        <prettyName>Edit</prettyName>
-        <rows>15</rows>
-        <size>80</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </edit.vm>
-      <footer.vm>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <editor>PureText</editor>
-        <name>footer.vm</name>
-        <number>6</number>
-        <picker>0</picker>
-        <prettyName>Footer</prettyName>
-        <rows>15</rows>
-        <size>80</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </footer.vm>
-      <header.vm>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <editor>PureText</editor>
-        <name>header.vm</name>
-        <number>5</number>
-        <picker>0</picker>
-        <prettyName>Header</prettyName>
-        <rows>15</rows>
-        <size>80</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </header.vm>
-      <logo>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>logo</name>
-        <number>3</number>
-        <picker>0</picker>
-        <prettyName>Logo</prettyName>
-        <size>30</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </logo>
-      <name>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>name</name>
-        <number>1</number>
-        <picker>0</picker>
-        <prettyName>Name</prettyName>
-        <size>30</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </name>
-      <style.css>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <editor>PureText</editor>
-        <name>style.css</name>
-        <number>4</number>
-        <picker>0</picker>
-        <prettyName>Style</prettyName>
-        <rows>15</rows>
-        <size>80</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </style.css>
-      <view.vm>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <editor>PureText</editor>
-        <name>view.vm</name>
-        <number>8</number>
-        <picker>0</picker>
-        <prettyName>View</prettyName>
-        <rows>15</rows>
-        <size>80</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </view.vm>
-      <viewheader.vm>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <editor>PureText</editor>
-        <name>viewheader.vm</name>
-        <number>7</number>
-        <picker>0</picker>
-        <prettyName>View Header</prettyName>
-        <rows>15</rows>
-        <size>80</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </viewheader.vm>
-    </class>
-    <name>Presentation.PresentationSkin</name>
-    <number>0</number>
-    <className>XWiki.XWikiSkins</className>
-    <guid>95909a9a-4b59-4340-af3d-62c56a7ccc61</guid>
-    <property>
-      <baseskin/>
-    </property>
-    <property>
-      <edit.vm/>
-    </property>
-    <property>
-      <footer.vm/>
-    </property>
-    <property>
-      <header.vm/>
-    </property>
-    <property>
-      <logo/>
-    </property>
-    <property>
-      <name>HTML5 Presentation</name>
-    </property>
-    <property>
-      <style.css>#template('colorThemeInit.vm')
+</content></attachment>
+<object>
+<class>
+<name>XWiki.DocumentSheetBinding</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<sheet>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>sheet</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Sheet</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</sheet>
+</class>
+<name>Presentation.PresentationSkin</name>
+<number>0</number>
+<className>XWiki.DocumentSheetBinding</className>
+<guid>0091e8a9-12d8-418d-98db-ca6236019533</guid>
+<property>
+<sheet></sheet>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.XWikiSkins</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<baseskin>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>baseskin</name>
+<number>2</number>
+<picker>0</picker>
+<prettyName>Base Skin</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</baseskin>
+<edit.vm>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>PureText</editor>
+<name>edit.vm</name>
+<number>9</number>
+<picker>0</picker>
+<prettyName>Edit</prettyName>
+<rows>15</rows>
+<size>80</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</edit.vm>
+<footer.vm>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>PureText</editor>
+<name>footer.vm</name>
+<number>6</number>
+<picker>0</picker>
+<prettyName>Footer</prettyName>
+<rows>15</rows>
+<size>80</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</footer.vm>
+<header.vm>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>PureText</editor>
+<name>header.vm</name>
+<number>5</number>
+<picker>0</picker>
+<prettyName>Header</prettyName>
+<rows>15</rows>
+<size>80</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</header.vm>
+<logo>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>logo</name>
+<number>3</number>
+<picker>0</picker>
+<prettyName>Logo</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</logo>
+<name>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>name</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Name</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</name>
+<style.css>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>PureText</editor>
+<name>style.css</name>
+<number>4</number>
+<picker>0</picker>
+<prettyName>Style</prettyName>
+<rows>15</rows>
+<size>80</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</style.css>
+<view.vm>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>PureText</editor>
+<name>view.vm</name>
+<number>8</number>
+<picker>0</picker>
+<prettyName>View</prettyName>
+<rows>15</rows>
+<size>80</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</view.vm>
+<viewheader.vm>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>PureText</editor>
+<name>viewheader.vm</name>
+<number>7</number>
+<picker>0</picker>
+<prettyName>View Header</prettyName>
+<rows>15</rows>
+<size>80</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</viewheader.vm>
+</class>
+<name>Presentation.PresentationSkin</name>
+<number>0</number>
+<className>XWiki.XWikiSkins</className>
+<guid>95909a9a-4b59-4340-af3d-62c56a7ccc61</guid>
+<property>
+<baseskin></baseskin>
+</property>
+<property>
+<edit.vm></edit.vm>
+</property>
+<property>
+<footer.vm></footer.vm>
+</property>
+<property>
+<header.vm></header.vm>
+</property>
+<property>
+<logo></logo>
+</property>
+<property>
+<name>HTML5 Presentation</name>
+</property>
+<property>
+<style.css>#template('colorThemeInit.vm')
 
 .wikimodel-emptyline {
   height: 1em;
@@ -1820,10 +1781,7 @@ ZTsKfQo=
 th {
   background-color: #F3F3F3
 }
-</style.css>
-    </property>
-    <property>
-      <view.vm>&lt;!DOCTYPE html&gt;
+</style.css></property><property><view.vm>&lt;!DOCTYPE html&gt;
 
 &lt;!-- Adapted from http://code.google.com/p/html5slides/ --&gt;
 
@@ -1878,12 +1836,12 @@ th {
 
   &lt;/body&gt;
 &lt;/html&gt;</view.vm>
-    </property>
-    <property>
-      <viewheader.vm/>
-    </property>
-  </object>
-  <content>= Example =
+</property>
+<property>
+<viewheader.vm></viewheader.vm>
+</property>
+</object>
+<content>= Example =
 
 Check out this [[Presentation about XWiki as web development platform&gt;&gt;XWikiPresentation]] to see this skin in action.
 
@@ -1949,5 +1907,4 @@ xdom.getBlocks(new ClassBlockMatcher(
 )))
 1. Attach an Object of type ##Presentation.PresentationClass##
 1. Click the "Run the presentation" button!
-</content>
-</xwikidoc>
+</content></xwikidoc>
