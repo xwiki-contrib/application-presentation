@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Presentation</web>
-<name>PresentationSkin</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Presentation.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1356994800000</creationDate>
-<date>1356994800000</date>
-<contentUpdateDate>1356994800000</contentUpdateDate>
-<version>1.1</version>
-<title>Presentation Skin</title>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden><attachment>
-<filename>logo.png</filename>
-<filesize>1091</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1357463041000</date>
-<version>1.1</version>
-<comment></comment><content>iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAECklEQVR4XtWaMWgTURjH36AQMdob
+  <web>Presentation</web>
+  <name>PresentationSkin</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Presentation.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1356994800000</creationDate>
+  <date>1356994800000</date>
+  <contentUpdateDate>1356994800000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Presentation Skin</title>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <attachment>
+    <filename>logo.png</filename>
+    <filesize>1091</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1357463041000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAECklEQVR4XtWaMWgTURjH36AQMdob
 FBwU0k4ODh06ZMhwQweHtrl7LwEHhwxOpZWisXQQLASt0sGhg4NDBoeCDqIpdOxQJIUODhkydAjY
 oYNChw4OBZ/vP5SGkr7/Xd7l2jz4CDfk3f2+7733/77vTgx6VOq5zNy3exPlz7ezYpgHQJ42xlrz
 G2N6fmO0Y669oYWZ/57LA+TEZhtjhQsBCILAKxbDahjKj2GolnAdF2aukfO7YXAdF6BcLmeDQM0V
@@ -46,13 +49,16 @@ wyHsHq4gBXiNiaIVJCNa+prQ5rdjrj2b01ifwJIl8PCjf+ySJJqI5AHSZez9zCOS9hz0Xs78pNlz
 Lnkzwu+GwbVrLwFAPEvgdQkXRQ6T7jtN/rZZ7RJRJDDuDXqkSs7fAQCEqDKFiZM2ke8AHL7QIOru
 AMP3Lk9E+UTwAEKKNUomcITh384gtUHDMOXGOj+aL7UR0WwT0RwuIEQoDZD/0b05QnZ/b5kAAAAA
 SUVORK5CYII=
-</content></attachment><attachment>
-<filename>logobig.png</filename>
-<filesize>3754</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1357463160000</date>
-<version>1.1</version>
-<comment></comment><content>iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAABnlBMVEUAAAD/eAAAh8r/AABwtwBQ
+</content>
+  </attachment>
+  <attachment>
+    <filename>logobig.png</filename>
+    <filesize>3754</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1357463160000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAABnlBMVEUAAAD/eAAAh8r/AABwtwBQ
 UFJAQEBPT1IAh8dQUFJQUFJgYGBQUFJVVVVQUFBRUVJQUFJQUFJVVVVQUFNQUFAAhsxNTU1PT1JS
 UlJPT1NOTlVPT1JRUVFPT1JQUFJRUVP/dwBRUVFQUFRQUFJQUFFQUFL/AABQUFNPT1JPT1JQUFJQ
 UFJRUVFSUlJQUFJQUFMAiMtOTlNQUFJQUFJQUFJPT1JRUVFQUFNQUFFQUFNQUFJQUFJQUFJRUVJR
@@ -118,13 +124,16 @@ BFaAJcmiqkTlXxXiCidL/sFxtqo25Zws2pTYiW8HaVNmy6bck0U75fSDt23iReS81luW0yDSgCwK
 Uw8eEz/i5xdRXH+eEelBFlHcf3lwd9D42c4dqjAIRmEY/kEYnGQx2RYUTAZvYCDYNrAYlkyCsIHF
 YB1e+LLpCz94EN7nBg58/T3hJPe6MbOmFgcdxhI+fZGaParsFhx4jOWPsRiLsaBzFOjQCXEJHXSc
 CZ39Ij4ox3bY6hcQ8QQD6r0K9OOeKwMAAAAAAH9jOCbZJ+wumQAAAABJRU5ErkJggg==
-</content></attachment><attachment>
-<filename>prettify.js</filename>
-<filesize>53996</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1319372338000</date>
-<version>1.1</version>
-<comment></comment><content>Ly8gQ29weXJpZ2h0IChDKSAyMDA2IEdvb2dsZSBJbmMuCi8vCi8vIExpY2Vuc2VkIHVuZGVyIHRo
+</content>
+  </attachment>
+  <attachment>
+    <filename>prettify.js</filename>
+    <filesize>53996</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1319372338000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>Ly8gQ29weXJpZ2h0IChDKSAyMDA2IEdvb2dsZSBJbmMuCi8vCi8vIExpY2Vuc2VkIHVuZGVyIHRo
 ZSBBcGFjaGUgTGljZW5zZSwgVmVyc2lvbiAyLjAgKHRoZSAiTGljZW5zZSIpOwovLyB5b3UgbWF5
 IG5vdCB1c2UgdGhpcyBmaWxlIGV4Y2VwdCBpbiBjb21wbGlhbmNlIHdpdGggdGhlIExpY2Vuc2Uu
 Ci8vIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdAovLwovLyAgICAgIGh0
@@ -1072,13 +1081,16 @@ Tic6IFBSX1BMQUlOLAogICAgICAgICdQUl9QVU5DVFVBVElPTic6IFBSX1BVTkNUVUFUSU9OLAog
 ICAgICAgICdQUl9TT1VSQ0UnOiBQUl9TT1VSQ0UsCiAgICAgICAgJ1BSX1NUUklORyc6IFBSX1NU
 UklORywKICAgICAgICAnUFJfVEFHJzogUFJfVEFHLAogICAgICAgICdQUl9UWVBFJzogUFJfVFlQ
 RQogICAgICB9Owp9KSgpOwo=
-</content></attachment><attachment>
-<filename>print.css</filename>
-<filesize>1924</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1386781018000</date>
-<version>1.14</version>
-<comment></comment><content>CmJvZHkgewogICBoZWlnaHQ6IDEwMCU7Cn0KCi5zbGlkZXMgPiBhcnRpY2xlIHsKICAgZGlzcGxh
+</content>
+  </attachment>
+  <attachment>
+    <filename>print.css</filename>
+    <filesize>1924</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1386781018000</date>
+    <version>1.14</version>
+    <comment/>
+    <content>CmJvZHkgewogICBoZWlnaHQ6IDEwMCU7Cn0KCi5zbGlkZXMgPiBhcnRpY2xlIHsKICAgZGlzcGxh
 eTogYmxvY2s7CiAgIHBhZ2UtYnJlYWstYmVmb3JlOiBhbHdheXM7CiAgIG92ZXJmbG93OiBoaWRk
 ZW47CiAgIHdpZHRoOiAxMDAlOwogICBoZWlnaHQ6IDEwMCU7CiAgIG1hcmdpbi1sZWZ0OiAwcHg7
 CiAgIG1hcmdpbi10b3A6IDBweDsKICB2aXNpYmlsaXR5OiB2aXNpYmxlOwogIC13ZWJraXQtdHJh
@@ -1112,13 +1124,16 @@ LmZhci1uZXh0IHsKICAtd2Via2l0LXRyYW5zZm9ybTogbm9uZTsKICB0cmFuc2Zvcm06IG5vbmU7
 Cn0KCmFydGljbGU6bm90KC5ub2JhY2tncm91bmQpOm5vdCguZmlsbCk6bm90KC5iaWdsb2dvKTph
 ZnRlciB7CiAgYm90dG9tOiAyMHB4OwogIGNvbnRlbnQ6IGNvdW50ZXIocG5vKSAiLyIgYXR0cih0
 cG4pOwogIGxlZnQ6IDIwcHg7CiAgcG9zaXRpb246IGFic29sdXRlOwp9Cg==
-</content></attachment><attachment>
-<filename>slides.js</filename>
-<filesize>14966</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1386785749000</date>
-<version>1.2</version>
-<comment></comment><content>LyoKICBHb29nbGUgSFRNTDUgc2xpZGVzIHRlbXBsYXRlCgogIEF1dGhvcnM6IEx1a2UgTWFow6kg
+</content>
+  </attachment>
+  <attachment>
+    <filename>slides.js</filename>
+    <filesize>14966</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1386785749000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>LyoKICBHb29nbGUgSFRNTDUgc2xpZGVzIHRlbXBsYXRlCgogIEF1dGhvcnM6IEx1a2UgTWFow6kg
 KGNvZGUpCiAgICAgICAgICAgTWFyY2luIFdpY2hhcnkgKGNvZGUgYW5kIGRlc2lnbikKCiAgICAg
 ICAgICAgRG9taW5pYyBNYXp6b25pIChicm93c2VyIGNvbXBhdGliaWxpdHkpCiAgICAgICAgICAg
 Q2hhcmxlcyBDaGVuIChDaHJvbWVWb3ggc3VwcG9ydCkKCiAgVVJMOiBodHRwOi8vY29kZS5nb29n
@@ -1381,13 +1396,16 @@ aXB0LnNyYyA9ICcuLi9zbGlkZXMuanMnOwogIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNC
 eVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogIHMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoc2NyaXB0
 LCBzKTsKCiAgLy8gUmVtb3ZlIHRoaXMgc2NyaXB0CiAgcy5wYXJlbnROb2RlLnJlbW92ZUNoaWxk
 KHMpOwp9IGVsc2UgewogIGluaXRpYWxpemUoKTsKfQo=
-</content></attachment><attachment>
-<filename>styles.css</filename>
-<filesize>9809</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1386776242000</date>
-<version>1.2</version>
-<comment></comment><content>LyoKICBHb29nbGUgSFRNTDUgc2xpZGVzIHRlbXBsYXRlCgogIEF1dGhvcnM6IEx1a2UgTWFow6kg
+</content>
+  </attachment>
+  <attachment>
+    <filename>styles.css</filename>
+    <filesize>9809</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1386776242000</date>
+    <version>1.2</version>
+    <comment/>
+    <content>LyoKICBHb29nbGUgSFRNTDUgc2xpZGVzIHRlbXBsYXRlCgogIEF1dGhvcnM6IEx1a2UgTWFow6kg
 KGNvZGUpCiAgICAgICAgICAgTWFyY2luIFdpY2hhcnkgKGNvZGUgYW5kIGRlc2lnbikKCiAgICAg
 ICAgICAgRG9taW5pYyBNYXp6b25pIChicm93c2VyIGNvbXBhdGliaWxpdHkpCiAgICAgICAgICAg
 Q2hhcmxlcyBDaGVuIChDaHJvbWVWb3ggc3VwcG9ydCkKCiAgVVJMOiBodHRwOi8vY29kZS5nb29n
@@ -1560,203 +1578,204 @@ bnRlbnQ6IGNvdW50ZXIocG5vKSAiLyIgYXR0cih0cG4pOwogIGxlZnQ6IDIwcHg7CiAgcG9zaXRp
 b246IGFic29sdXRlOwp9CmFydGljbGUubm90aXRsZSBoMiwgYXJ0aWNsZS5ub3RpdGxlIGgzIHsK
 ICBkaXNwbGF5OiBub25lOwp9CgphcnRpY2xlIC5zdmctYnV0dG9ucyB7CiAgZGlzcGxheTogbm9u
 ZTsKfQo=
-</content></attachment>
-<object>
-<class>
-<name>XWiki.DocumentSheetBinding</name>
-<customClass></customClass>
-<customMapping></customMapping>
-<defaultViewSheet></defaultViewSheet>
-<defaultEditSheet></defaultEditSheet>
-<defaultWeb></defaultWeb>
-<nameField></nameField>
-<validationScript></validationScript>
-<sheet>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<name>sheet</name>
-<number>1</number>
-<picker>0</picker>
-<prettyName>Sheet</prettyName>
-<size>30</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</sheet>
-</class>
-<name>Presentation.PresentationSkin</name>
-<number>0</number>
-<className>XWiki.DocumentSheetBinding</className>
-<guid>0091e8a9-12d8-418d-98db-ca6236019533</guid>
-<property>
-<sheet></sheet>
-</property>
-</object>
-<object>
-<class>
-<name>XWiki.XWikiSkins</name>
-<customClass></customClass>
-<customMapping></customMapping>
-<defaultViewSheet></defaultViewSheet>
-<defaultEditSheet></defaultEditSheet>
-<defaultWeb></defaultWeb>
-<nameField></nameField>
-<validationScript></validationScript>
-<baseskin>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<name>baseskin</name>
-<number>2</number>
-<picker>0</picker>
-<prettyName>Base Skin</prettyName>
-<size>30</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</baseskin>
-<edit.vm>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<editor>PureText</editor>
-<name>edit.vm</name>
-<number>9</number>
-<picker>0</picker>
-<prettyName>Edit</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</edit.vm>
-<footer.vm>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<editor>PureText</editor>
-<name>footer.vm</name>
-<number>6</number>
-<picker>0</picker>
-<prettyName>Footer</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</footer.vm>
-<header.vm>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<editor>PureText</editor>
-<name>header.vm</name>
-<number>5</number>
-<picker>0</picker>
-<prettyName>Header</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</header.vm>
-<logo>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<name>logo</name>
-<number>3</number>
-<picker>0</picker>
-<prettyName>Logo</prettyName>
-<size>30</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</logo>
-<name>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<name>name</name>
-<number>1</number>
-<picker>0</picker>
-<prettyName>Name</prettyName>
-<size>30</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</name>
-<style.css>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<editor>PureText</editor>
-<name>style.css</name>
-<number>4</number>
-<picker>0</picker>
-<prettyName>Style</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</style.css>
-<view.vm>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<editor>PureText</editor>
-<name>view.vm</name>
-<number>8</number>
-<picker>0</picker>
-<prettyName>View</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</view.vm>
-<viewheader.vm>
-<customDisplay></customDisplay>
-<disabled>0</disabled>
-<editor>PureText</editor>
-<name>viewheader.vm</name>
-<number>7</number>
-<picker>0</picker>
-<prettyName>View Header</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</viewheader.vm>
-</class>
-<name>Presentation.PresentationSkin</name>
-<number>0</number>
-<className>XWiki.XWikiSkins</className>
-<guid>95909a9a-4b59-4340-af3d-62c56a7ccc61</guid>
-<property>
-<baseskin></baseskin>
-</property>
-<property>
-<edit.vm></edit.vm>
-</property>
-<property>
-<footer.vm></footer.vm>
-</property>
-<property>
-<header.vm></header.vm>
-</property>
-<property>
-<logo></logo>
-</property>
-<property>
-<name>HTML5 Presentation</name>
-</property>
-<property>
-<style.css>#template('colorThemeInit.vm')
+</content>
+  </attachment>
+  <object>
+    <class>
+      <name>XWiki.DocumentSheetBinding</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <sheet>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>sheet</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Sheet</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </sheet>
+    </class>
+    <name>Presentation.PresentationSkin</name>
+    <number>0</number>
+    <className>XWiki.DocumentSheetBinding</className>
+    <guid>0091e8a9-12d8-418d-98db-ca6236019533</guid>
+    <property>
+      <sheet/>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.XWikiSkins</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <baseskin>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>baseskin</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Base Skin</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </baseskin>
+      <edit.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>edit.vm</name>
+        <number>9</number>
+        <picker>0</picker>
+        <prettyName>Edit</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </edit.vm>
+      <footer.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>footer.vm</name>
+        <number>6</number>
+        <picker>0</picker>
+        <prettyName>Footer</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </footer.vm>
+      <header.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>header.vm</name>
+        <number>5</number>
+        <picker>0</picker>
+        <prettyName>Header</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </header.vm>
+      <logo>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>logo</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Logo</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </logo>
+      <name>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <style.css>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>style.css</name>
+        <number>4</number>
+        <picker>0</picker>
+        <prettyName>Style</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </style.css>
+      <view.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>view.vm</name>
+        <number>8</number>
+        <picker>0</picker>
+        <prettyName>View</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </view.vm>
+      <viewheader.vm>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>viewheader.vm</name>
+        <number>7</number>
+        <picker>0</picker>
+        <prettyName>View Header</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </viewheader.vm>
+    </class>
+    <name>Presentation.PresentationSkin</name>
+    <number>0</number>
+    <className>XWiki.XWikiSkins</className>
+    <guid>95909a9a-4b59-4340-af3d-62c56a7ccc61</guid>
+    <property>
+      <baseskin/>
+    </property>
+    <property>
+      <edit.vm/>
+    </property>
+    <property>
+      <footer.vm/>
+    </property>
+    <property>
+      <header.vm/>
+    </property>
+    <property>
+      <logo/>
+    </property>
+    <property>
+      <name>HTML5 Presentation</name>
+    </property>
+    <property>
+      <style.css>#template('colorThemeInit.vm')
 
 .wikimodel-emptyline {
   height: 1em;
@@ -1781,7 +1800,10 @@ ZTsKfQo=
 th {
   background-color: #F3F3F3
 }
-</style.css></property><property><view.vm>&lt;!DOCTYPE html&gt;
+</style.css>
+    </property>
+    <property>
+      <view.vm>&lt;!DOCTYPE html&gt;
 
 &lt;!-- Adapted from http://code.google.com/p/html5slides/ --&gt;
 
@@ -1836,12 +1858,12 @@ th {
 
   &lt;/body&gt;
 &lt;/html&gt;</view.vm>
-</property>
-<property>
-<viewheader.vm></viewheader.vm>
-</property>
-</object>
-<content>= Example =
+    </property>
+    <property>
+      <viewheader.vm/>
+    </property>
+  </object>
+  <content>= Example =
 
 Check out this [[Presentation about XWiki as web development platform&gt;&gt;XWikiPresentation]] to see this skin in action.
 
@@ -1907,4 +1929,5 @@ xdom.getBlocks(new ClassBlockMatcher(
 )))
 1. Attach an Object of type ##Presentation.PresentationClass##
 1. Click the "Run the presentation" button!
-</content></xwikidoc>
+</content>
+</xwikidoc>

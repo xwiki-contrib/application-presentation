@@ -121,7 +121,7 @@ To learn how to use it you can:
       </scope>
     </class>
     <property>
-      <content></content>
+      <content/>
     </property>
     <property>
       <extensionPointId>org.xwiki.platform.panels.Applications</extensionPointId>
@@ -130,8 +130,8 @@ To learn how to use it you can:
       <name>platform.panels.PresentationApplication</name>
     </property>
     <property>
-      <parameters>label=Presentation&#xd;
-target=Presentation.WebHome&#xd;
+      <parameters>label=Presentation
+target=Presentation.WebHome
 icon=icon:images</parameters>
     </property>
     <property>
