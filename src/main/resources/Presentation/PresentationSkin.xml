@@ -426,14 +426,12 @@ th {
     #end
 
     &lt;section class='slides $layout $theme'&gt;
-      
+
       &lt;article class='biglogo'&gt;
       &lt;/article&gt;
 
-      ## Save document being presented in the context since we have no way to pass it with includeTopic
-      $context.put("presentationDocument", $doc.getFullName())
       #includeInContext("Presentation.PresentationSlideGenerator")
-        
+
     &lt;/section&gt;
 
   &lt;/body&gt;

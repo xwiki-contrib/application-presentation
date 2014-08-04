@@ -50,12 +50,10 @@ import com.xpn.xwiki.web.*
 // Algorithm:
 // - find all Section Blocks at all levels
 // - For each Section Block remove nested Section blocks so that each slides maps only to one section
-def presentationDocumentReference = xcontext.get("presentationDocument")
-def xdom = xwiki.getDocument(presentationDocumentReference).getDocument().getXDOM()
-def newxdom = xdom.clone();
-def txContext = new TransformationContext(newxdom, Syntax.XWIKI_2_0)
-Utils.getComponent(TransformationManager.class).performTransformations(newxdom, txContext)
-def blocks = newxdom.getBlocks(new ClassBlockMatcher(SectionBlock.class), Block.Axes.DESCENDANT);
+def xdom = doc.getDocument().getXDOM().clone();
+def txContext = new TransformationContext(xdom, Syntax.XWIKI_2_0)
+Utils.getComponent(TransformationManager.class).performTransformations(xdom, txContext)
+def blocks = xdom.getBlocks(new ClassBlockMatcher(SectionBlock.class), Block.Axes.DESCENDANT);
 
 def tpn = 1;
 blocks.each() { sectionBlock -&gt;
@@ -81,13 +79,12 @@ blocks.each() { sectionBlock -&gt;
     if (sectionClass) print " class='${sectionClass}'"
     println '&gt;'
     // Render the content in XHTML, in the context of the presentation document (we wrap the content to render in a metadata block with a source reference)
-    def wrappedSectionBlock = new MetaDataBlock(Arrays.asList(sectionBlock), new MetaData(Collections.singletonMap(MetaData.SOURCE, presentationDocumentReference)))
+    def wrappedSectionBlock = new MetaDataBlock(Arrays.asList(sectionBlock), new MetaData(Collections.singletonMap(MetaData.SOURCE, doc.fullName)))
     print "${services.rendering.render(wrappedSectionBlock, "xhtml/1.0")}"
     println "&lt;/article&gt;{{/html}}"
     println ""
   }
 }
 return ""
- {{/groovy}}
-</content>
+{{/groovy}}</content>
 </xwikidoc>
