@@ -27,7 +27,7 @@
   <parent>
     <groupId>org.xwiki.commons</groupId>
     <artifactId>xwiki-commons-pom</artifactId>
-    <version>3.3-rc-1</version>
+    <version>3.3</version>
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-presentation</artifactId>
@@ -35,11 +35,22 @@
   <name>Presentation Application</name>
   <packaging>xar</packaging>
   <description>Transforms wiki pages into HTML5 presentations</description>
+  <issueManagement>
+    <system>jira</system>
+    <url>http://jira.xwiki.org/browse/PRESENT</url>
+  </issueManagement>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/application-presentation.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-presentation.git</developerConnection>
     <url>https://github.com/xwiki-contrib/application-presentation</url>
   </scm>
+  <distributionManagement>
+    <repository>
+      <id>xwiki-staging</id>
+      <name>XWiki Staging Repository</name>
+      <url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <!-- Don't run CLIRR here since there's no Java code. -->
     <xwiki.clirr.skip>true</xwiki.clirr.skip>
@@ -62,4 +73,3 @@
     </plugins>
   </build>
 </project>
-
