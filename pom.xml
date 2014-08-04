@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-presentation</artifactId>
-  <version>1.4</version>
+  <version>1.5-SNAPSHOT</version>
   <name>Presentation Application</name>
   <packaging>xar</packaging>
   <description>Transforms wiki pages into HTML5 presentations</description>
@@ -43,7 +43,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/application-presentation.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-presentation.git</developerConnection>
     <url>https://github.com/xwiki-contrib/application-presentation</url>
-    <tag>application-presentation-1.4</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
