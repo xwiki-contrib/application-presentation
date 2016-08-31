@@ -35,6 +35,9 @@
   <name>Presentation Application</name>
   <packaging>xar</packaging>
   <description>Transforms wiki pages into HTML5 presentations</description>
+  <properties>
+    <xwiki.extension.category>application</xwiki.extension.category>
+  </properties>
   <issueManagement>
     <system>jira</system>
     <url>http://jira.xwiki.org/browse/PRESENT</url>
@@ -45,6 +48,35 @@
     <url>https://github.com/xwiki-contrib/application-presentation</url>
     <tag>HEAD</tag>
   </scm>
+  <developers>
+    <developer>
+      <id>vmassol</id>
+      <name>Vincent Massol</name>
+      <organization>XWiki SAS</organization>
+      <roles>
+        <role>creator</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>ldubost</id>
+      <name>Ludovic Dubost</name>
+      <organization>XWiki SAS</organization>
+    </developer>
+    <developer>
+      <id>mflorea</id>
+      <name>Marius Dumitru Florea</name>
+      <organization>XWiki SAS</organization>
+    </developer>
+    <developer>
+      <id>sdumitriu</id>
+      <name>Sergiu Dumitriu</name>
+    </developer>
+    <developer>
+      <id>msmeria</id>
+      <name>Manuel Smeria</name>
+      <organization>XWiki SAS</organization>
+    </developer>
+  </developers>
   <distributionManagement>
     <repository>
       <id>xwiki-staging</id>
