@@ -20,29 +20,26 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc>
+<xwikidoc version="1.3" reference="Presentation.PresentationClass" locale="">
   <web>Presentation</web>
   <name>PresentationClass</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Presentation.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1564816944000</creationDate>
+  <parent>Presentation.WebHome</parent>
   <author>xwiki:XWiki.Admin</author>
-  <customClass/>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <creationDate>1319379782000</creationDate>
-  <date>1319532958000</date>
-  <contentUpdateDate>1319532958000</contentUpdateDate>
+  <date>1565156867000</date>
+  <contentUpdateDate>1564816944000</contentUpdateDate>
   <version>1.1</version>
   <title/>
-  <template/>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
-  <syntaxId>xwiki/2.0</syntaxId>
-  <hidden>false</hidden>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content/>
   <class>
     <name>Presentation.PresentationClass</name>
     <customClass/>
@@ -80,6 +77,10 @@
     </theme>
   </class>
   <object>
+    <name>Presentation.PresentationClass</name>
+    <number>0</number>
+    <className>XWiki.ClassSheetBinding</className>
+    <guid>717707ea-3479-41ea-a43f-669edc30c31b</guid>
     <class>
       <name>XWiki.ClassSheetBinding</name>
       <customClass/>
@@ -90,26 +91,33 @@
       <nameField/>
       <validationScript/>
       <sheet>
+        <cache>0</cache>
+        <classname/>
         <customDisplay/>
         <disabled>0</disabled>
+        <displayType>input</displayType>
+        <hint/>
+        <idField/>
+        <multiSelect>0</multiSelect>
         <name>sheet</name>
         <number>1</number>
-        <picker>0</picker>
+        <picker>1</picker>
         <prettyName>Sheet</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators/>
         <size>30</size>
+        <sort>none</sort>
+        <sql/>
         <unmodifiable>0</unmodifiable>
         <validationMessage/>
         <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+        <valueField/>
+        <classType>com.xpn.xwiki.objects.classes.PageClass</classType>
       </sheet>
     </class>
-    <name>Presentation.PresentationClass</name>
-    <number>0</number>
-    <className>XWiki.ClassSheetBinding</className>
-    <guid>717707ea-3479-41ea-a43f-669edc30c31b</guid>
     <property>
       <sheet>Presentation.PresentationSheet</sheet>
     </property>
   </object>
-  <content/>
 </xwikidoc>
