@@ -20,33 +20,34 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc version="1.3" reference="Presentation.PresentationTemplate" locale="">
-  <web>Presentation</web>
-  <name>PresentationTemplate</name>
+<xwikidoc version="1.3" reference="Presentation.Code.PresentationTranslations" locale="">
+  <web>Presentation.Code</web>
+  <name>PresentationTranslations</name>
   <language/>
-  <defaultLanguage/>
+  <defaultLanguage>en</defaultLanguage>
   <translation>0</translation>
   <creator>xwiki:XWiki.Admin</creator>
-  <creationDate>1564989595000</creationDate>
-  <parent>Main.WebHome</parent>
+  <creationDate>1565198502000</creationDate>
+  <parent>WebHome</parent>
   <author>xwiki:XWiki.Admin</author>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <date>1565156910000</date>
-  <contentUpdateDate>1564989595000</contentUpdateDate>
+  <date>1565198502000</date>
+  <contentUpdateDate>1565198502000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <comment/>
   <minorEdit>false</minorEdit>
-  <syntaxId>xwiki/2.1</syntaxId>
+  <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content/>
+  <content>presentation.template.name=Presentation
+presentation.template.description=Slideshow</content>
   <object>
-    <name>Presentation.PresentationTemplate</name>
+    <name>Presentation.Code.PresentationTranslations</name>
     <number>0</number>
-    <className>Presentation.PresentationClass</className>
-    <guid>13601900-7491-4d25-b2e8-aa6f5fb61ec5</guid>
+    <className>XWiki.TranslationDocumentClass</className>
+    <guid>9ccae05a-4b89-4640-afda-48851bbdbdf7</guid>
     <class>
-      <name>Presentation.PresentationClass</name>
+      <name>XWiki.TranslationDocumentClass</name>
       <customClass/>
       <customMapping/>
       <defaultViewSheet/>
@@ -54,38 +55,27 @@
       <defaultWeb/>
       <nameField/>
       <validationScript/>
-      <layout>
-        <customDisplay/>
+      <scope>
+        <cache>0</cache>
         <disabled>0</disabled>
-        <name>layout</name>
-        <number>2</number>
-        <picker>0</picker>
-        <prettyName>Layout</prettyName>
-        <size>30</size>
+        <displayType>select</displayType>
+        <freeText>forbidden</freeText>
+        <largeStorage>0</largeStorage>
+        <multiSelect>0</multiSelect>
+        <name>scope</name>
+        <number>1</number>
+        <prettyName>Scope</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </layout>
-      <theme>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>theme</name>
-        <number>3</number>
-        <picker>0</picker>
-        <prettyName>Theme</prettyName>
-        <size>30</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </theme>
+        <values>GLOBAL|WIKI|USER|ON_DEMAND</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </scope>
     </class>
     <property>
-      <layout/>
-    </property>
-    <property>
-      <theme/>
+      <scope>WIKI</scope>
     </property>
   </object>
 </xwikidoc>

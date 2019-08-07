@@ -31,7 +31,7 @@
   <parent>WebHome</parent>
   <author>xwiki:XWiki.Admin</author>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <date>1565156744000</date>
+  <date>1565199650000</date>
   <contentUpdateDate>1565156744000</contentUpdateDate>
   <version>1.1</version>
   <title>Axolotl: An Endangered Species</title>
@@ -77,10 +77,10 @@
   <object>
     <name>Presentation.Axolotl: An Endangered Species</name>
     <number>0</number>
-    <className>Presentation.PresentationClass</className>
-    <guid>dfaa4e3e-572b-4927-84b5-4dc99c1a6074</guid>
+    <className>Presentation.Code.PresentationClass</className>
+    <guid>35ce5062-227e-41bf-94d1-880d15140666</guid>
     <class>
-      <name>Presentation.PresentationClass</name>
+      <name>Presentation.Code.PresentationClass</name>
       <customClass/>
       <customMapping/>
       <defaultViewSheet/>

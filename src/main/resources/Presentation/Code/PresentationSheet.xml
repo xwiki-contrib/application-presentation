@@ -20,19 +20,19 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc version="1.3" reference="Presentation.PresentationSheet" locale="">
-  <web>Presentation</web>
+<xwikidoc version="1.3" reference="Presentation.Code.PresentationSheet" locale="">
+  <web>Presentation.Code</web>
   <name>PresentationSheet</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
   <creator>xwiki:XWiki.Admin</creator>
-  <creationDate>1564816944000</creationDate>
-  <parent>Presentation.PresentationClass</parent>
+  <creationDate>1565198436000</creationDate>
+  <parent>WebHome</parent>
   <author>xwiki:XWiki.Admin</author>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <date>1565156822000</date>
-  <contentUpdateDate>1565156822000</contentUpdateDate>
+  <date>1565199768000</date>
+  <contentUpdateDate>1565198999000</contentUpdateDate>
   <version>1.1</version>
   <title/>
   <comment/>
@@ -40,49 +40,27 @@
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
   <content>{{velocity}}
-
+#set ($sheetId = 'Presentation.Code.PresentationSheet')
+#set ($sheetClass = 'Presentation.Code.PresentationClass')
 {{html}}
 
     &lt;div class="form"&gt;
       #if ("$!request.mode" != 'present')
-       #set ($presentation = $doc.getObject('Presentation.PresentationClass'))
+       #set ($presentation = $doc.getObject($sheetClass))
        #set ($theme  = "$!presentation.getValue('theme')")
-       #if ($theme == 'bootstrap-carousel')
-         &lt;a class="btn btn-default" href="$doc.getURL('view', 'mode=present')"&gt;Present&lt;/a&gt;
-       #else
-         &lt;a class="btn btn-default" href="$doc.getURL('view', 'skin=Presentation.PresentationSkin')"&gt;Present&lt;/a&gt;
-         &lt;a class="btn btn-default" href="$doc.getURL('view', 'skin=Presentation.PresentationSkin&amp;print=1')"&gt;Print&lt;/a&gt;
-       #end
-      #else
-        &lt;a class="btn btn-default" href="$doc.getURL('view')"&gt;Standard view&lt;/a&gt;
+       &lt;a class="btn btn-default" href="$doc.getURL('view', 'mode=present')"&gt;Present&lt;/a&gt;
       #end
     &lt;/div&gt;
 {{/html}}
 
 {{/velocity}}
 
-{{box cssClass="floatinginfobox" title="**Slides**"}}
-{{groovy}}
-     import org.xwiki.rendering.block.match.*
-     import org.xwiki.rendering.block.*
-     import org.xwiki.rendering.transformation.*
-     import org.xwiki.rendering.syntax.*
-     import org.xwiki.rendering.listener.*
-     import com.xpn.xwiki.web.*
-       def xdom = doc.getDocument().getXDOM()
-       xdom.getBlocks(new ClassBlockMatcher(HeaderBlock.class), Block.Axes.DESCENDANT).each() { headerBlock -&gt;
-          println "* [[${services.rendering.render(new XDOM(headerBlock.getChildren()), "plain/1.0")}&gt;&gt;||anchor='${headerBlock.getId()}']]"
-       }
-       return ""
-   {{/groovy}}
-{{/box}}
-
 {{velocity}}
-  #if ($doc.fullName.equals("Presentation.PresentationSheet"))
-    This sheet will be applied to documents containing a Presentation Class Object.
+  #if ($doc.fullName.equals($sheetId))
+    This sheet will be applied to documents containing a PresentationClass object.
   #elseif ("$!request.mode" == 'present')
-    $xwiki.ssx.use('Presentation.PresentationSheet')
-    $xwiki.jsx.use('Presentation.PresentationSheet')
+    $xwiki.ssx.use($sheetId)
+    $xwiki.jsx.use($sheetId)
     $xwiki.jsfx.use('uicomponents/widgets/fullScreen.js', {'forceSkinAction': true, 'language': ${xcontext.locale}})
     $xwiki.ssfx.use('uicomponents/widgets/fullScreen.css', true)
     {{html wiki="false" clean="false"}}
@@ -97,10 +75,10 @@
   #end
 {{/velocity}}</content>
   <object>
-    <name>Presentation.PresentationSheet</name>
+    <name>Presentation.Code.PresentationSheet</name>
     <number>0</number>
     <className>XWiki.JavaScriptExtension</className>
-    <guid>a67fc0f4-9b33-4cfa-a4d1-1d001153ccf4</guid>
+    <guid>0a320215-0331-4de3-b19c-e530ab93ae93</guid>
     <class>
       <name>XWiki.JavaScriptExtension</name>
       <customClass/>
@@ -275,10 +253,10 @@
     </property>
   </object>
   <object>
-    <name>Presentation.PresentationSheet</name>
+    <name>Presentation.Code.PresentationSheet</name>
     <number>0</number>
     <className>XWiki.SheetDescriptorClass</className>
-    <guid>3ae485b2-cb4e-4c13-9b2f-3ed1af733770</guid>
+    <guid>3743830b-8ff6-4f35-ae8a-2cd4fa7abb01</guid>
     <class>
       <name>XWiki.SheetDescriptorClass</name>
       <customClass/>
@@ -307,10 +285,10 @@
     </property>
   </object>
   <object>
-    <name>Presentation.PresentationSheet</name>
+    <name>Presentation.Code.PresentationSheet</name>
     <number>0</number>
     <className>XWiki.StyleSheetExtension</className>
-    <guid>d9f49b46-f42b-4b11-9e31-4ca0dd686c6e</guid>
+    <guid>d7531c15-33de-4e18-a460-ad50d3be3f86</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>

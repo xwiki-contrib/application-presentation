@@ -31,8 +31,8 @@
   <parent>Main.WebHome</parent>
   <author>xwiki:XWiki.Admin</author>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-  <date>1565072804000</date>
-  <contentUpdateDate>1565072804000</contentUpdateDate>
+  <date>1565198360000</date>
+  <contentUpdateDate>1565198360000</contentUpdateDate>
   <version>1.1</version>
   <title>Presentation Application</title>
   <comment/>
@@ -45,9 +45,7 @@ It works by following some simple rules and then by applying a special skin to t
 
 To learn how to use it you can:
 * [[Read the documentation&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Presentation+Application]]
-* View examples:
-** [[Example Presentation about XWiki with HTML5 slides&gt;&gt;Presentation.XWikiPresentation]]
-** [[Presentation with Bootstrap Carousel&gt;&gt;Axolotl: An Endangered Species]]
+* [[Example presentation with Bootstrap Carousel&gt;&gt;Axolotl: An Endangered Species]]
 </content>
   <object>
     <name>Presentation.WebHome</name>
