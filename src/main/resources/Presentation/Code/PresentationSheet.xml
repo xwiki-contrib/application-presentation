@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.3" reference="Presentation.Code.PresentationSheet" locale="">
+  <web>Presentation.Code</web>
+  <name>PresentationSheet</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1565198436000</creationDate>
+  <parent>WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1565242584000</date>
+  <contentUpdateDate>1565242584000</contentUpdateDate>
+  <version>1.1</version>
+  <title/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content>{{velocity}}
+#set ($sheetId = 'Presentation.Code.PresentationSheet')
+#set ($sheetClass = 'Presentation.Code.PresentationClass')
+#set ($printSkinId = 'Presentation.Code.PresentationPrintSkin')
+#set ($carouselGeneratorId = 'Presentation.Code.BootstrapCarouselGenerator')
+#set ($presentation = $doc.getObject($sheetClass))
+#if ($presentation != $NULL &amp;&amp; "$!request.mode" != 'present')
+{{html}}
+
+    &lt;div class="form"&gt;
+       #set ($theme  = "$!presentation.getValue('theme')")
+       &lt;a class="btn btn-default" href="$doc.getURL('view', 'mode=present')"&gt;Present&lt;/a&gt;
+       &lt;a class="btn btn-default" href="$doc.getURL('view', "mode=present&amp;print=1&amp;skin=$printSkinId")"&gt;Print&lt;/a&gt;
+    &lt;/div&gt;
+{{/html}}
+#end
+
+{{/velocity}}
+
+{{velocity}}
+  #if ($doc.fullName.equals($sheetId))
+    This sheet will be applied to documents containing a PresentationClass object.
+  #elseif ("$!request.mode" == 'present')
+    $xwiki.ssx.use($sheetId)
+    $xwiki.jsx.use($sheetId)
+    $xwiki.jsfx.use('uicomponents/widgets/fullScreen.js', {'forceSkinAction': true, 'language': ${xcontext.locale}})
+    $xwiki.ssfx.use('uicomponents/widgets/fullScreen.css', true)
+    {{html wiki="false" clean="false"}}
+    &lt;div id="carousel-slides" class="carousel carousel-fade" data-interval="false"&gt;
+      &lt;div class="carousel-inner" role="listbox"&gt;
+        #includeInContext($carouselGeneratorId)
+      &lt;/div&gt;
+    &lt;/div&gt;
+    {{/html}}
+  #else
+    {{include document="$doc.fullName"/}}
+  #end
+{{/velocity}}</content>
+  <object>
+    <name>Presentation.Code.PresentationSheet</name>
+    <number>0</number>
+    <className>XWiki.JavaScriptExtension</className>
+    <guid>0a320215-0331-4de3-b19c-e530ab93ae93</guid>
+    <class>
+      <name>XWiki.JavaScriptExtension</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <cache>
+        <cache>0</cache>
+        <defaultValue>long</defaultValue>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <freeText>forbidden</freeText>
+        <largeStorage>0</largeStorage>
+        <multiSelect>0</multiSelect>
+        <name>cache</name>
+        <number>5</number>
+        <prettyName>Caching policy</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>long|short|default|forbid</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </cache>
+      <code>
+        <contenttype>PureText</contenttype>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>code</name>
+        <number>2</number>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>50</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <parse>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>parse</name>
+        <number>4</number>
+        <prettyName>Parse content</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </parse>
+      <use>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <freeText>forbidden</freeText>
+        <largeStorage>0</largeStorage>
+        <multiSelect>0</multiSelect>
+        <name>use</name>
+        <number>3</number>
+        <prettyName>Use this extension</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>currentPage|onDemand|always</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </use>
+    </class>
+    <property>
+      <cache>long</cache>
+    </property>
+    <property>
+      <code>require(['jquery', 'bootstrap'], function ($) {
+
+  function Layout() {
+    this.ratio = {width: 4, height: 3, ratio: 4 / 3};
+    this.dimensions = {width: 900, height: 675};
+  }
+
+  Layout.prototype.rearrange = function (element, container) {
+    var containerHeight = container.clientHeight;
+    var containerWidth = container.clientWidth
+    var scale = 1;
+
+    if (containerWidth / this.ratio.width &gt; containerHeight / this.ratio.height) {
+      scale = containerHeight / this.dimensions.height;
+    } else {
+      scale = containerWidth / this.dimensions.width;
+    }
+
+    var scaledWidth = this.dimensions.width * scale;
+    var scaledHeight = this.dimensions.height * scale;
+
+    var left = (containerWidth - scaledWidth) / 2;
+    var top = (containerHeight - scaledHeight) / 2;
+    element.style['transform'] = 'scale(' + scale + ')';
+    element.style['-webkit-transform'] = 'scale(' + scale + ')';
+    element.style.MozTransform = 'scale(' + scale + ')';
+    element.style.left = Math.max(left, 0) + 'px';
+    element.style.top = Math.max(top, 0) + 'px';
+  };
+
+  var layout = function() {
+    var layout = new Layout();
+    var container = $('#xwikicontent').get(0);
+    $('.carousel-item-slide').each(function() {
+      this.style.width = layout.dimensions.width + 'px';
+      this.style.height = layout.dimensions.height + 'px';
+      layout.rearrange(this, container);
+    });
+  };
+
+  var displayIndicator = function(itemCount) {
+     var activeSlide = $('.carousel').find('.active');
+     var index = activeSlide.index() + 1;
+     activeSlide.find('.carousel-item-slide-indicator').text(index + ' / ' + itemCount);
+  }
+
+  $(document).bind('keyup', function(event) {
+    if(event.which == 34 || event.which == 39 || event .which == 40) {
+      $('.carousel').carousel('next');
+    } else if(event.which == 33 || event.which == 37 || event.which == 38) {
+      $('.carousel').carousel('prev');
+    }
+  });
+
+  $(window).resize(function() {
+    layout();
+  });
+
+  var itemCount = $('.carousel .item').length;
+  displayIndicator(itemCount);
+
+  $('.carousel').on('slid.bs.carousel', function () {
+    displayIndicator(itemCount);
+  });
+
+  // Full screen buttons
+  var carousel = document.querySelector(".carousel");
+  var fullScreen = new XWiki.widgets.FullScreen();
+  var fullScreenButton = fullScreen.createOpenButton(carousel);
+  Element.insert(carousel, {before: fullScreenButton});
+  $(fullScreenButton).on('click', function(event) {
+    layout();
+  });
+  fullScreenButton.click()
+
+  layout();
+});
+
+
+</code>
+    </property>
+    <property>
+      <name/>
+    </property>
+    <property>
+      <parse>0</parse>
+    </property>
+    <property>
+      <use>onDemand</use>
+    </property>
+  </object>
+  <object>
+    <name>Presentation.Code.PresentationSheet</name>
+    <number>0</number>
+    <className>XWiki.SheetDescriptorClass</className>
+    <guid>3743830b-8ff6-4f35-ae8a-2cd4fa7abb01</guid>
+    <class>
+      <name>XWiki.SheetDescriptorClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <action>
+        <customDisplay/>
+        <disabled>0</disabled>
+        <name>action</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Action</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </action>
+    </class>
+    <property>
+      <action>view</action>
+    </property>
+  </object>
+  <object>
+    <name>Presentation.Code.PresentationSheet</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>d7531c15-33de-4e18-a460-ad50d3be3f86</guid>
+    <class>
+      <name>XWiki.StyleSheetExtension</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <cache>
+        <cache>0</cache>
+        <defaultValue>long</defaultValue>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <freeText>forbidden</freeText>
+        <largeStorage>0</largeStorage>
+        <multiSelect>0</multiSelect>
+        <name>cache</name>
+        <number>5</number>
+        <prettyName>Caching policy</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>long|short|default|forbid</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </cache>
+      <code>
+        <contenttype>PureText</contenttype>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>code</name>
+        <number>2</number>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>50</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <freeText>forbidden</freeText>
+        <largeStorage>0</largeStorage>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <parse>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>parse</name>
+        <number>4</number>
+        <prettyName>Parse content</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </parse>
+      <use>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <freeText>forbidden</freeText>
+        <largeStorage>0</largeStorage>
+        <multiSelect>0</multiSelect>
+        <name>use</name>
+        <number>3</number>
+        <prettyName>Use this extension</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>currentPage|onDemand|always</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </use>
+    </class>
+    <property>
+      <cache>forbid</cache>
+    </property>
+    <property>
+      <code>#template('colorThemeInit.vm')
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+.floatinginfobox {
+  display: none;
+}
+
+.fullScreenWrapper {
+  .form {
+    display: none;
+  }
+  .wikimodel-emptyline {
+    display: none;
+  }
+  // hide bottom buttons added by XWiki.widgets.FullScreen
+  .bottombuttons {
+    display: none;
+  }
+  .carousel {
+    width: 100%;
+    height:100% !important;
+
+    .carousel-inner {
+      height:100%;
+
+      .carousel-item {
+        width: 100%;
+        height:100%;
+          .carousel-item-slide {
+            // TODO: the absolute position combined with scale transform results in blurry fonts in Firefox (Chrome is ok)
+            position: absolute;
+            transform-origin:top left;
+            -webkit-transform-origin:top left;
+            //-moz-transform-origin:top left;
+          }
+      }
+    }
+  }
+}
+
+.carousel {
+  background: #ddd;
+  overflow: hidden;
+  margin: auto;
+
+  .carousel-inner {
+
+    .carousel-item {
+      font-size: 20px;
+      page-break-after:always;
+
+        .carousel-item-slide {
+          width: 100%;
+          height: 100%;
+          margin: auto;
+          overflow: hidden;
+          background-color: #fff;
+          #if ("$!request.print" != '1')
+            box-shadow: 0 0 2px #888;
+          #end
+          display: table;
+          table-layout: fixed;
+
+          .carousel-item-slide-content {
+            font-family: 'Droid Serif';
+            display: table-cell;
+            padding: 1em 4em 1em 4em;
+
+            h1, h2, h3 {
+              font-family: 'Yanone Kaffeesatz';
+              font-weight: normal;
+            }
+
+            h2 {
+              font-size: 3.5em;
+            }
+            .code, .box {
+              background-color: $theme.backgroundSecondaryColor;
+              border: 1px dotted $theme.borderColor;
+              font-size: 70%;
+              line-height: 120%
+            }
+
+            .code, .code pre, .code *  {
+              font-family: courier, "courier new", monospace;
+              white-space: pre;
+            }
+
+            th {
+              background-color: #F3F3F3
+            }
+
+            table &gt; tbody &gt; tr &gt; td {
+              border: 0;
+            }
+
+            .footnote {
+              position: absolute;
+              bottom: 2em;
+              right: 6em;
+              font-size: 85%;
+              color: #888;
+            }
+
+            img {
+              width: 100%;
+            }
+        }
+      }
+
+      &amp;.header {
+        .carousel-item-slide-content {
+          text-align: center;
+          vertical-align: middle;
+          h2 {
+            font-size: 4em;
+          }
+          h3 {
+            font-size: 2.5em;
+            color: #888;
+          }
+        }
+      }
+
+
+      .carousel-item-slide-indicator {
+        position: absolute;
+        bottom: 12px;
+        right: 30px;
+        color: #777;
+      }
+    }
+  }
+}
+
+
+</code>
+    </property>
+    <property>
+      <contentType>LESS</contentType>
+    </property>
+    <property>
+      <name/>
+    </property>
+    <property>
+      <parse>1</parse>
+    </property>
+    <property>
+      <use>onDemand</use>
+    </property>
+  </object>
+</xwikidoc>
