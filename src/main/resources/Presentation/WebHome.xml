@@ -39,15 +39,24 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
-  <content>This application allows you to create presentations by transforming a wiki page into a presentation.
+  <content>{{velocity}}
+$services.localization.render('presentation.application.description', ['https://extensions.xwiki.org/xwiki/bin/view/Extension/Presentation+Application', 'Axolotl: An Endangered Species'])
 
-It works by following some simple rules and then by applying a special skin to the presentation page.
+#set($columns = ['doc.title', 'doc.date', '_actions'])
+#set($columnsProperties = {
+   'doc.title' : {'link' : 'view'},
+   'doc.date' : { 'type' : 'date' },
+   '_actions': {'sortable':false, 'filterable': false, 'html': true, 'actions': ['edit', 'delete']}
+})
+#set($options = {
+  'className': 'Presentation.Code.PresentationClass',
+  'translationPrefix': 'presentation.livetable.',
+  'tagCloud': true,
+  'rowCount': 10
+})
+#livetable("presentations" $columns $columnsProperties $options)
 
-To learn how to use it you can:
-* [[Read the documentation&gt;&gt;http://extensions.xwiki.org/xwiki/bin/view/Extension/Presentation+Application]]
-* Example: [[Axolotl: An Endangered Species]]
-
-</content>
+{{/velocity}}</content>
   <object>
     <name>Presentation.WebHome</name>
     <number>0</number>

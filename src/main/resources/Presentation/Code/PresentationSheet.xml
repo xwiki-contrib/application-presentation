@@ -50,8 +50,8 @@
 
     &lt;div class="form"&gt;
        #set ($theme  = "$!presentation.getValue('theme')")
-       &lt;a class="btn btn-default" href="$doc.getURL('view', 'mode=present')"&gt;Present&lt;/a&gt;
-       &lt;a class="btn btn-default" href="$doc.getURL('view', "mode=present&amp;print=1&amp;skin=$printSkinId")"&gt;Print&lt;/a&gt;
+       &lt;a class="btn btn-default" href="$doc.getURL('view', 'mode=present')"&gt;$services.localization.render('presentation.action.present')&lt;/a&gt;
+       &lt;a class="btn btn-default" href="$doc.getURL('view', "mode=present&amp;print=1&amp;skin=$printSkinId")"&gt;$services.localization.render('presentation.action.print')&lt;/a&gt;
     &lt;/div&gt;
 {{/html}}
 #end
@@ -63,6 +63,7 @@
     This sheet will be applied to documents containing a PresentationClass object.
   #elseif ("$!request.mode" == 'present')
     $xwiki.ssx.use($sheetId)
+    $xwiki.ssx.use($doc.fullName)
     $xwiki.jsx.use($sheetId)
     $xwiki.jsfx.use('uicomponents/widgets/fullScreen.js', {'forceSkinAction': true, 'language': ${xcontext.locale}})
     $xwiki.ssfx.use('uicomponents/widgets/fullScreen.css', true)
@@ -164,7 +165,13 @@
       <cache>long</cache>
     </property>
     <property>
-      <code>require(['jquery', 'bootstrap'], function ($) {
+      <code>require.config({
+  paths: {
+    'TouchSwipe': '$services.webjars.url('TouchSwipe-Jquery-Plugin/1.6.6/jquery.touchSwipe.min')'
+  }
+});
+
+require(['jquery', 'bootstrap', 'TouchSwipe'], function ($, bootstrap, TouchSwipe) {
 
   function Layout() {
     this.ratio = {width: 4, height: 3, ratio: 4 / 3};
@@ -240,6 +247,13 @@
   fullScreenButton.click()
 
   layout();
+
+  $(carousel).swipe({
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+      if (direction == 'left') $(this).carousel('next');
+      if (direction == 'right') $(this).carousel('prev');
+    },
+  });
 });
 
 
@@ -249,7 +263,7 @@
       <name/>
     </property>
     <property>
-      <parse>0</parse>
+      <parse>1</parse>
     </property>
     <property>
       <use>onDemand</use>
@@ -469,7 +483,8 @@
             }
 
             h2 {
-              font-size: 3.5em;
+              font-size: 3.1em;
+              margin-bottom: 0.3em;
             }
             .code, .box {
               background-color: $theme.backgroundSecondaryColor;
@@ -489,6 +504,10 @@
 
             table &gt; tbody &gt; tr &gt; td {
               border: 0;
+            }
+
+            ul li {
+              margin-top: 0.5em;
             }
 
             .footnote {

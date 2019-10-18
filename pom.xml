@@ -91,4 +91,11 @@
       <url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>TouchSwipe-Jquery-Plugin</artifactId>
+      <version>1.6.6</version>
+    </dependency>
+  </dependencies>
  </project>

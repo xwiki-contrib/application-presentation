@@ -39,8 +39,20 @@
   <minorEdit>false</minorEdit>
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content>presentation.template.name=Presentation
-presentation.template.description=Slideshow</content>
+  <content>presentation.application.name=Presentation Application
+presentation.application.description= The Presentation application lets you transform a wiki page sections into presentation slides.\n* [[Documentation&gt;&gt;{0}]]\n* Example: [[{1}]]
+
+
+presentation.action.present=Present
+presentation.action.print=Print
+
+presentation.template.name=Presentation
+presentation.template.description=Slideshow
+
+presentation.livetable.doc.title=Title
+presentation.livetable.doc.date=Date
+presentation.livetable._actions=Actions
+</content>
   <object>
     <name>Presentation.Code.PresentationTranslations</name>
     <number>0</number>
