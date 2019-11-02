@@ -40,18 +40,18 @@
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
   <content>{{velocity}}
-#set ($sheetId = 'Presentation.Code.PresentationSheet')
-#set ($sheetClass = 'Presentation.Code.PresentationClass')
-#set ($printSkinId = 'Presentation.Code.PresentationPrintSkin')
-#set ($carouselGeneratorId = 'Presentation.Code.BootstrapCarouselGenerator')
-#set ($presentation = $doc.getObject($sheetClass))
+#set ($SHEET_ID = 'Presentation.Code.PresentationSheet')
+#set ($PRESENTATION_CLASS_ID = 'Presentation.Code.PresentationClass')
+#set ($PRINT_SKIN_ID = 'Presentation.Code.PresentationPrintSkin')
+#set ($CAROUSEL_GENERATOR_ID = 'Presentation.Code.BootstrapCarouselGenerator')
+#set ($presentation = $doc.getObject($PRESENTATION_CLASS_ID))
 #if ($presentation != $NULL &amp;&amp; "$!request.mode" != 'present')
 {{html}}
 
     &lt;div class="form"&gt;
        #set ($theme  = "$!presentation.getValue('theme')")
        &lt;a class="btn btn-default" href="$doc.getURL('view', 'mode=present')"&gt;$services.localization.render('presentation.action.present')&lt;/a&gt;
-       &lt;a class="btn btn-default" href="$doc.getURL('view', "mode=present&amp;print=1&amp;skin=$printSkinId")"&gt;$services.localization.render('presentation.action.print')&lt;/a&gt;
+       &lt;a class="btn btn-default" href="$doc.getURL('view', "mode=present&amp;print=1&amp;skin=$PRINT_SKIN_ID")"&gt;$services.localization.render('presentation.action.print')&lt;/a&gt;
     &lt;/div&gt;
 {{/html}}
 #end
@@ -59,18 +59,18 @@
 {{/velocity}}
 
 {{velocity}}
-  #if ($doc.fullName.equals($sheetId))
+  #if ($doc.fullName.equals($SHEET_ID))
     This sheet will be applied to documents containing a PresentationClass object.
   #elseif ("$!request.mode" == 'present')
-    $xwiki.ssx.use($sheetId)
+    $xwiki.ssx.use($SHEET_ID)
     $xwiki.ssx.use($doc.fullName)
-    $xwiki.jsx.use($sheetId)
+    $xwiki.jsx.use($SHEET_ID)
     $xwiki.jsfx.use('uicomponents/widgets/fullScreen.js', {'forceSkinAction': true, 'language': ${xcontext.locale}})
     $xwiki.ssfx.use('uicomponents/widgets/fullScreen.css', true)
     {{html wiki="false" clean="false"}}
     &lt;div id="carousel-slides" class="carousel carousel-fade" data-interval="false"&gt;
       &lt;div class="carousel-inner" role="listbox"&gt;
-        #includeInContext($carouselGeneratorId)
+        #includeInContext($CAROUSEL_GENERATOR_ID)
       &lt;/div&gt;
     &lt;/div&gt;
     {{/html}}
